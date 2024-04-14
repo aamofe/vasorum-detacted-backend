@@ -565,3 +565,4077 @@ spawned uWSGI worker 4 (pid: 344102, cores: 2)
 用户id  : 1
 [pid: 344099|app: 0|req: 1/1] 219.239.227.174 () {38 vars in 638 bytes} [Thu Apr 11 19:40:58 2024] GET /api/medical/get_all_patient => generated 165 bytes in 128 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 [pid: 344102|app: 0|req: 1/2] 180.101.245.248 () {42 vars in 845 bytes} [Thu Apr 11 19:43:19 2024] GET /api/medical/get_case?patient_id=1 => generated 43 bytes in 32 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+1/dst/2-德育.png
+[pid: 344098|app: 0|req: 1/3] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 19:45:27 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 174 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 0
+1/dst/6-志愿服务_91h.png
+哈哈 0
+[pid: 344101|app: 0|req: 1/4] 219.239.227.192 () {44 vars in 923 bytes} [Thu Apr 11 19:45:27 2024] GET /api/medical/get_ct?patient_id=1&case_id=1 => generated 370 bytes in 181 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+1/dst/2-德育.png
+哈哈 0
+1/dst/6-志愿服务_91h.png
+哈哈 0
+[pid: 344102|app: 0|req: 2/6] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 19:45:34 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 134 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 344099|app: 0|req: 2/6] 219.239.227.192 () {44 vars in 923 bytes} [Thu Apr 11 19:45:34 2024] GET /api/medical/get_ct?patient_id=1&case_id=1 => generated 370 bytes in 132 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 344102|app: 0|req: 4/7] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 19:45:40 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 189 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+1/dst/2-德育.png
+哈哈 0
+1/dst/6-志愿服务_91h.png
+哈哈 0
+[pid: 344102|app: 0|req: 4/8] 219.239.227.192 () {44 vars in 923 bytes} [Thu Apr 11 19:45:40 2024] GET /api/medical/get_ct?patient_id=1&case_id=1 => generated 370 bytes in 185 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 344101|app: 0|req: 2/9] 219.239.227.192 () {46 vars in 814 bytes} [Thu Apr 11 19:46:48 2024] POST /api/user/login => generated 296 bytes in 95 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 344101|app: 0|req: 3/10] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 19:46:48 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 96 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 344102|app: 0|req: 5/11] 220.196.160.146 () {42 vars in 863 bytes} [Thu Apr 11 19:48:55 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 43 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+1/dst/2-德育.png
+哈哈 0
+1/dst/6-志愿服务_91h.png
+[pid: 344101|app: 0|req: 4/12] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 19:49:17 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 139 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 0
+[pid: 344099|app: 0|req: 3/13] 219.239.227.192 () {44 vars in 923 bytes} [Thu Apr 11 19:49:17 2024] GET /api/medical/get_ct?patient_id=1&case_id=1 => generated 370 bytes in 142 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 344098|app: 0|req: 3/14] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 19:51:46 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 193 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+1/dst/2-德育.png
+哈哈 0
+1/dst/6-志愿服务_91h.png
+哈哈 0
+[pid: 344098|app: 0|req: 3/15] 219.239.227.192 () {44 vars in 923 bytes} [Thu Apr 11 19:51:46 2024] GET /api/medical/get_ct?patient_id=1&case_id=1 => generated 370 bytes in 201 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+1/dst/2-德育.png
+哈哈 0
+1/dst/6-志愿服务_91h.png
+用户id  : 5
+哈哈 0
+[pid: 344099|app: 0|req: 4/16] 219.239.227.192 () {44 vars in 923 bytes} [Thu Apr 11 19:51:50 2024] GET /api/medical/get_ct?patient_id=1&case_id=1 => generated 370 bytes in 127 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 344101|app: 0|req: 5/17] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 19:51:50 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 134 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 344101|app: 0|req: 7/18] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 19:51:54 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 181 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+1/dst/2-德育.png
+哈哈 0
+1/dst/6-志愿服务_91h.png
+哈哈 0
+[pid: 344101|app: 0|req: 7/19] 219.239.227.192 () {44 vars in 923 bytes} [Thu Apr 11 19:51:54 2024] GET /api/medical/get_ct?patient_id=1&case_id=1 => generated 370 bytes in 191 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 344101|app: 0|req: 8/20] 219.239.227.192 () {52 vars in 917 bytes} [Thu Apr 11 19:52:32 2024] OPTIONS /api/medical/get_case?patient_id=1 => generated 0 bytes in 1 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+[pid: 344098|app: 0|req: 4/21] 219.239.227.192 () {52 vars in 933 bytes} [Thu Apr 11 19:52:32 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=1 => generated 0 bytes in 1 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 344098|app: 0|req: 5/22] 219.239.227.192 () {48 vars in 960 bytes} [Thu Apr 11 19:52:32 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 145 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+1/dst/2-德育.png
+哈哈 0
+1/dst/6-志愿服务_91h.png
+哈哈 0
+[pid: 344099|app: 0|req: 5/23] 219.239.227.192 () {48 vars in 976 bytes} [Thu Apr 11 19:52:32 2024] GET /api/medical/get_ct?patient_id=1&case_id=1 => generated 370 bytes in 137 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 344102|app: 0|req: 6/24] 219.239.227.192 () {48 vars in 882 bytes} [Thu Apr 11 19:52:35 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=17 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 344098|app: 0|req: 6/25] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 19:52:35 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 1026 bytes in 105 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+[pid: 344098|app: 0|req: 7/26] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 19:53:30 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 118 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 344102|app: 0|req: 7/27] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 19:53:30 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 1026 bytes in 128 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 344101|app: 0|req: 9/28] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 19:56:19 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 1026 bytes in 107 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+用户id  : 5
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 344101|app: 0|req: 11/29] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 19:56:22 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 1026 bytes in 193 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+[pid: 344101|app: 0|req: 11/30] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 19:56:22 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 192 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 1
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 344101|app: 0|req: 12/31] 219.239.227.174 () {38 vars in 667 bytes} [Thu Apr 11 19:58:20 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 1026 bytes in 122 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 344099)...
+Gracefully killing worker 1 (pid: 344098)...
+Gracefully killing worker 4 (pid: 344102)...
+Gracefully killing worker 3 (pid: 344101)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 6 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.23 (64bit) on [Thu Apr 11 19:59:33 2024] ***
+compiled with version: 11.2.0 on 15 January 2024 06:07:54
+os: Linux-5.15.0-91-generic #101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023
+nodename: VM-16-17-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/chuangxin/vasorum-detacted-backend
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+your processes number limit is 7401
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 6
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+Set PythonHome to /home/ubuntu/anaconda3/envs/django
+Python main interpreter initialized at 0x55ec78dc7f70
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/ubuntu/anaconda3/envs/django/lib/python3.10/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ec78dc7f70 pid: 2250 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2250)
+spawned uWSGI worker 1 (pid: 351612, cores: 2)
+spawned uWSGI worker 2 (pid: 351613, cores: 2)
+spawned uWSGI worker 3 (pid: 351615, cores: 2)
+spawned uWSGI worker 4 (pid: 351616, cores: 2)
+用户id  : 1
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351615|app: 0|req: 1/1] 219.239.227.174 () {38 vars in 667 bytes} [Thu Apr 11 19:59:34 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 966 bytes in 151 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 351612)...
+Gracefully killing worker 2 (pid: 351613)...
+Gracefully killing worker 3 (pid: 351615)...
+Gracefully killing worker 4 (pid: 351616)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 6 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.23 (64bit) on [Thu Apr 11 20:00:17 2024] ***
+compiled with version: 11.2.0 on 15 January 2024 06:07:54
+os: Linux-5.15.0-91-generic #101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023
+nodename: VM-16-17-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/chuangxin/vasorum-detacted-backend
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+your processes number limit is 7401
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 6
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+Set PythonHome to /home/ubuntu/anaconda3/envs/django
+Python main interpreter initialized at 0x556b366e9f70
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/ubuntu/anaconda3/envs/django/lib/python3.10/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x556b366e9f70 pid: 2250 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2250)
+spawned uWSGI worker 1 (pid: 351959, cores: 2)
+spawned uWSGI worker 2 (pid: 351960, cores: 2)
+spawned uWSGI worker 3 (pid: 351962, cores: 2)
+spawned uWSGI worker 4 (pid: 351963, cores: 2)
+用户id  : 1
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 1/1] 219.239.227.174 () {38 vars in 667 bytes} [Thu Apr 11 20:00:18 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 151 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+[pid: 351962|app: 0|req: 3/2] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:01:42 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 199 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 3/3] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:01:42 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 205 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 4/4] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:02:55 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 130 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351963|app: 0|req: 1/5] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:02:55 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 161 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351963|app: 0|req: 2/6] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:02:59 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 117 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 1/7] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:02:59 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 176 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 351963|app: 0|req: 3/8] 219.239.227.192 () {48 vars in 882 bytes} [Thu Apr 11 20:03:18 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=12 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+用户id  : 5
+12/dst/ser010img00053.png
+哈哈 0
+12/dst/ser010img00054.png
+哈哈 0
+12/dst/ser010img00055.png
+哈哈 0
+12/dst/ser010img00056.png
+哈哈 0
+12/dst/ser010img00057.png
+哈哈 0
+12/dst/ser010img00058.png
+哈哈 0
+12/dst/ser010img00059.png
+哈哈 0
+12/dst/ser010img00060.png
+哈哈 0
+12/dst/ser010img00061.png
+哈哈 0
+12/dst/ser010img00062.png
+哈哈 0
+12/dst/ser010img00063.png
+哈哈 0
+12/dst/ser010img00064.png
+哈哈 0
+[pid: 351963|app: 0|req: 4/9] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:03:18 2024] GET /api/medical/get_ct?patient_id=1&case_id=12 => generated 1680 bytes in 132 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+[pid: 351962|app: 0|req: 5/10] 219.239.227.192 () {48 vars in 882 bytes} [Thu Apr 11 20:03:20 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=15 => generated 0 bytes in 1 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 2/11] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:03:20 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 148 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 5/12] 219.239.227.192 () {48 vars in 882 bytes} [Thu Apr 11 20:03:30 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=11 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+用户id  : 5
+11/dst/ser010img00053.png
+哈哈 0
+11/dst/ser010img00054.png
+哈哈 0
+11/dst/ser010img00055.png
+哈哈 0
+11/dst/ser010img00056.png
+哈哈 0
+11/dst/ser010img00057.png
+哈哈 0
+11/dst/ser010img00058.png
+哈哈 0
+11/dst/ser010img00059.png
+哈哈 0
+[pid: 351962|app: 0|req: 6/13] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:03:30 2024] GET /api/medical/get_ct?patient_id=1&case_id=11 => generated 1025 bytes in 121 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 6/14] 219.239.227.192 () {52 vars in 917 bytes} [Thu Apr 11 20:03:59 2024] OPTIONS /api/medical/get_case?patient_id=1 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
+[pid: 351962|app: 0|req: 7/15] 219.239.227.192 () {52 vars in 935 bytes} [Thu Apr 11 20:03:59 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=11 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351959|app: 0|req: 2/16] 219.239.227.192 () {48 vars in 960 bytes} [Thu Apr 11 20:03:59 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 254 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+11/dst/ser010img00053.png
+哈哈 0
+11/dst/ser010img00054.png
+哈哈 0
+11/dst/ser010img00055.png
+哈哈 0
+11/dst/ser010img00056.png
+哈哈 0
+11/dst/ser010img00057.png
+哈哈 0
+11/dst/ser010img00058.png
+哈哈 0
+11/dst/ser010img00059.png
+哈哈 0
+[pid: 351959|app: 0|req: 2/17] 219.239.227.192 () {48 vars in 978 bytes} [Thu Apr 11 20:03:59 2024] GET /api/medical/get_ct?patient_id=1&case_id=11 => generated 1025 bytes in 251 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+11/dst/ser010img00053.png
+用户id  : 5
+哈哈 0
+11/dst/ser010img00054.png
+哈哈 0
+11/dst/ser010img00055.png
+[pid: 351959|app: 0|req: 3/18] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:04:30 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 121 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 0
+11/dst/ser010img00056.png
+哈哈 0
+11/dst/ser010img00057.png
+哈哈 0
+11/dst/ser010img00058.png
+哈哈 0
+11/dst/ser010img00059.png
+哈哈 0
+[pid: 351963|app: 0|req: 7/19] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:04:30 2024] GET /api/medical/get_ct?patient_id=1&case_id=11 => generated 1025 bytes in 137 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+11/dst/ser010img00053.png
+[pid: 351959|app: 0|req: 4/20] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:04:33 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 116 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 0
+11/dst/ser010img00054.png
+哈哈 0
+11/dst/ser010img00055.png
+哈哈 0
+11/dst/ser010img00056.png
+哈哈 0
+11/dst/ser010img00057.png
+哈哈 0
+11/dst/ser010img00058.png
+哈哈 0
+11/dst/ser010img00059.png
+哈哈 0
+[pid: 351962|app: 0|req: 8/21] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:04:33 2024] GET /api/medical/get_ct?patient_id=1&case_id=11 => generated 1025 bytes in 139 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 8/22] 219.239.227.192 () {52 vars in 917 bytes} [Thu Apr 11 20:04:37 2024] OPTIONS /api/medical/get_case?patient_id=1 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 9/23] 219.239.227.192 () {52 vars in 935 bytes} [Thu Apr 11 20:04:37 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=11 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351959|app: 0|req: 5/24] 219.239.227.192 () {48 vars in 960 bytes} [Thu Apr 11 20:04:37 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 113 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+11/dst/ser010img00053.png
+哈哈 0
+11/dst/ser010img00054.png
+哈哈 0
+11/dst/ser010img00055.png
+哈哈 0
+11/dst/ser010img00056.png
+哈哈 0
+11/dst/ser010img00057.png
+哈哈 0
+11/dst/ser010img00058.png
+哈哈 0
+11/dst/ser010img00059.png
+哈哈 0
+[pid: 351962|app: 0|req: 9/25] 219.239.227.192 () {48 vars in 978 bytes} [Thu Apr 11 20:04:37 2024] GET /api/medical/get_ct?patient_id=1&case_id=11 => generated 1025 bytes in 159 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 10/26] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:04:48 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 127 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+11/dst/ser010img00053.png
+哈哈 0
+11/dst/ser010img00054.png
+哈哈 0
+11/dst/ser010img00055.png
+哈哈 0
+11/dst/ser010img00056.png
+哈哈 0
+11/dst/ser010img00057.png
+哈哈 0
+11/dst/ser010img00058.png
+哈哈 0
+11/dst/ser010img00059.png
+哈哈 0
+[pid: 351963|app: 0|req: 10/27] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:04:48 2024] GET /api/medical/get_ct?patient_id=1&case_id=11 => generated 1025 bytes in 155 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351959|app: 0|req: 6/28] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:04:57 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 138 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351963|app: 0|req: 11/29] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:05:06 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 109 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 11/30] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:05:06 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 168 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+[pid: 351959|app: 0|req: 7/31] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:05:16 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 128 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 12/32] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:05:16 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 164 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+[pid: 351962|app: 0|req: 13/33] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:06:02 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 124 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 3/34] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:06:02 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 156 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+用户id  : 5
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+[pid: 351962|app: 0|req: 14/35] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:06:30 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 124 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 12/36] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:06:30 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 160 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351959|app: 0|req: 8/37] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:07:55 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 123 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 15/38] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:07:55 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 164 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 13/39] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:09:21 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 116 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 4/40] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:09:21 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 164 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 14/41] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:10:30 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 121 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 16/42] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:10:30 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 172 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+15/dst/ser010img00053.png
+[pid: 351960|app: 0|req: 5/43] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:11:45 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 114 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 15/44] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:11:45 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 160 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 17/45] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:11:47 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 119 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351959|app: 0|req: 9/46] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:11:47 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 163 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 18/47] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:11:58 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 124 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 6/48] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:11:58 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 166 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351963|app: 0|req: 16/49] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:12:07 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 121 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 19/50] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:12:07 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 162 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351960|app: 0|req: 7/51] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:12:36 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 115 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 20/52] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:12:36 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 154 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351962|app: 0|req: 21/53] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:12:42 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 104 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 8/54] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:12:42 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 153 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+[pid: 351959|app: 0|req: 10/55] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:13:22 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 121 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 17/56] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:13:22 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 158 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 22/57] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:13:29 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 104 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+[pid: 351962|app: 0|req: 24/58] 219.239.227.192 () {44 vars in 907 bytes} [Thu Apr 11 20:13:48 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 186 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 24/59] 219.239.227.192 () {44 vars in 925 bytes} [Thu Apr 11 20:13:48 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 195 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351960|app: 0|req: 9/60] 180.163.30.100 () {36 vars in 637 bytes} [Thu Apr 11 21:14:19 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 43 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+[pid: 351962|app: 0|req: 25/61] 180.101.244.14 () {40 vars in 685 bytes} [Thu Apr 11 22:08:23 2024] GET /api/medical/upload => generated 43 bytes in 8 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+[pid: 351962|app: 0|req: 26/62] 59.83.208.106 () {42 vars in 861 bytes} [Thu Apr 11 22:15:41 2024] GET /api/medical/get_ct?patient_id=1&case_id=11 => generated 43 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 18/63] 220.196.160.96 () {40 vars in 703 bytes} [Thu Apr 11 22:20:10 2024] GET /api/medical/get_all_patient => generated 43 bytes in 2 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
+Not Found: /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[pid: 351962|app: 0|req: 27/64] 121.204.214.62 () {40 vars in 608 bytes} [Thu Apr 11 22:33:23 2024] GET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php => generated 2588 bytes in 22 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
+[pid: 351962|app: 0|req: 28/65] 59.83.208.104 () {40 vars in 731 bytes} [Thu Apr 11 23:44:35 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 43 bytes in 0 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 19/66] 220.196.160.53 () {40 vars in 693 bytes} [Fri Apr 12 01:14:10 2024] GET /api/medical/upload_seg => generated 43 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+[pid: 351962|app: 0|req: 29/67] 180.101.245.252 () {42 vars in 845 bytes} [Fri Apr 12 01:40:11 2024] GET /api/medical/get_case?patient_id=1 => generated 43 bytes in 0 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+[pid: 351962|app: 0|req: 30/68] 220.196.160.151 () {42 vars in 845 bytes} [Fri Apr 12 05:55:19 2024] GET /api/medical/get_case?patient_id=1 => generated 43 bytes in 0 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 351962|app: 0|req: 31/69] 219.239.227.192 () {48 vars in 827 bytes} [Fri Apr 12 23:45:03 2024] OPTIONS /api/user/login => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+[pid: 351962|app: 0|req: 32/70] 219.239.227.192 () {46 vars in 814 bytes} [Fri Apr 12 23:45:03 2024] POST /api/user/login => generated 296 bytes in 104 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351960|app: 0|req: 10/71] 219.239.227.192 () {48 vars in 864 bytes} [Fri Apr 12 23:45:03 2024] OPTIONS /api/medical/get_case?patient_id=1 => generated 0 bytes in 1 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351960|app: 0|req: 11/72] 219.239.227.192 () {44 vars in 907 bytes} [Fri Apr 12 23:45:03 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 95 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 351963|app: 0|req: 20/73] 219.239.227.192 () {48 vars in 880 bytes} [Fri Apr 12 23:45:04 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=1 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351960|app: 0|req: 12/74] 219.239.227.192 () {44 vars in 907 bytes} [Fri Apr 12 23:45:04 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 112 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+1/dst/2-德育.png
+哈哈 0
+1/dst/6-志愿服务_91h.png
+哈哈 0
+[pid: 351959|app: 0|req: 11/75] 219.239.227.192 () {44 vars in 923 bytes} [Fri Apr 12 23:45:04 2024] GET /api/medical/get_ct?patient_id=1&case_id=1 => generated 358 bytes in 130 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 351960|app: 0|req: 13/76] 219.239.227.192 () {48 vars in 882 bytes} [Fri Apr 12 23:46:03 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=17 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 21/77] 219.239.227.192 () {44 vars in 925 bytes} [Fri Apr 12 23:46:03 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 103 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 22/78] 219.239.227.192 () {46 vars in 814 bytes} [Fri Apr 12 23:46:19 2024] POST /api/user/login => generated 296 bytes in 89 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351962|app: 0|req: 33/79] 219.239.227.192 () {44 vars in 907 bytes} [Fri Apr 12 23:46:19 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 95 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+1/dst/2-德育.png
+哈哈 0
+1/dst/6-志愿服务_91h.png
+[pid: 351959|app: 0|req: 12/80] 219.239.227.192 () {44 vars in 907 bytes} [Fri Apr 12 23:46:20 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 116 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 0
+[pid: 351960|app: 0|req: 14/81] 219.239.227.192 () {44 vars in 923 bytes} [Fri Apr 12 23:46:20 2024] GET /api/medical/get_ct?patient_id=1&case_id=1 => generated 358 bytes in 121 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 23/82] 219.239.227.192 () {46 vars in 814 bytes} [Fri Apr 12 23:47:18 2024] POST /api/user/login => generated 296 bytes in 97 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351960|app: 0|req: 15/83] 219.239.227.192 () {44 vars in 907 bytes} [Fri Apr 12 23:47:18 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 94 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 35/84] 219.239.227.192 () {44 vars in 907 bytes} [Fri Apr 12 23:47:18 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 175 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+1/dst/2-德育.png
+哈哈 0
+1/dst/6-志愿服务_91h.png
+哈哈 0
+[pid: 351962|app: 0|req: 35/85] 219.239.227.192 () {44 vars in 923 bytes} [Fri Apr 12 23:47:18 2024] GET /api/medical/get_ct?patient_id=1&case_id=1 => generated 358 bytes in 192 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 24/86] 219.239.227.192 () {44 vars in 925 bytes} [Fri Apr 12 23:47:22 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 108 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351962|app: 0|req: 36/87] 219.239.227.192 () {44 vars in 907 bytes} [Fri Apr 12 23:47:28 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 95 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+[pid: 351959|app: 0|req: 13/88] 219.239.227.192 () {44 vars in 907 bytes} [Fri Apr 12 23:58:29 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 120 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 25/89] 219.239.227.192 () {44 vars in 925 bytes} [Fri Apr 12 23:58:29 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 130 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 26/90] 219.239.227.192 () {48 vars in 882 bytes} [Sat Apr 13 00:05:44 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=15 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 27/91] 219.239.227.192 () {44 vars in 925 bytes} [Sat Apr 13 00:05:44 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 141 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 37/92] 219.239.227.192 () {44 vars in 925 bytes} [Sat Apr 13 00:07:00 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 114 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351962|app: 0|req: 38/93] 219.239.227.192 () {48 vars in 864 bytes} [Sun Apr 14 11:13:17 2024] OPTIONS /api/medical/get_case?patient_id=1 => generated 0 bytes in 1 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+[pid: 351962|app: 0|req: 39/94] 219.239.227.192 () {48 vars in 880 bytes} [Sun Apr 14 11:13:17 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=1 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351959|app: 0|req: 15/95] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 11:13:17 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 171 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+1/dst/2-德育.png
+哈哈 0
+1/dst/6-志愿服务_91h.png
+哈哈 0
+[pid: 351959|app: 0|req: 15/96] 219.239.227.192 () {44 vars in 923 bytes} [Sun Apr 14 11:13:17 2024] GET /api/medical/get_ct?patient_id=1&case_id=1 => generated 358 bytes in 170 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 351963|app: 0|req: 28/97] 219.239.227.192 () {48 vars in 882 bytes} [Sun Apr 14 11:13:23 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=17 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 40/98] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 11:13:23 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 103 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 30/99] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 11:13:47 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 178 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+1/dst/2-德育.png
+哈哈 0
+1/dst/6-志愿服务_91h.png
+哈哈 0
+[pid: 351963|app: 0|req: 30/100] 219.239.227.192 () {44 vars in 923 bytes} [Sun Apr 14 11:13:47 2024] GET /api/medical/get_ct?patient_id=1&case_id=1 => generated 358 bytes in 192 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 16/101] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 11:13:49 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 106 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+[pid: 351959|app: 0|req: 17/102] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 11:16:21 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 192 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351959|app: 0|req: 17/103] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 11:16:21 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 200 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+[pid: 351960|app: 0|req: 17/104] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 11:18:10 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 116 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 31/105] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 11:18:10 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 124 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+[pid: 351963|app: 0|req: 32/106] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 11:30:32 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 143 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 41/107] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 11:30:32 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 147 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351959|app: 0|req: 18/108] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 11:35:38 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 125 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 33/109] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 11:35:38 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 138 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 34/110] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 11:35:55 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 127 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 42/111] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 11:35:55 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 143 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 43/112] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 11:39:10 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 117 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 35/113] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 11:39:10 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 135 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 351962|app: 0|req: 44/114] 219.239.227.192 () {48 vars in 882 bytes} [Sun Apr 14 11:39:32 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=15 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351963|app: 0|req: 36/115] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 11:39:32 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 156 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 45/116] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 11:39:32 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 140 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 47/117] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 11:40:30 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 185 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 47/118] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 11:40:30 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 192 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+[pid: 351963|app: 0|req: 37/119] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 11:44:11 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 119 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 18/120] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 11:44:11 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 128 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351959|app: 0|req: 19/121] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:09:29 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 113 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 48/122] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:09:29 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 126 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+用户id  : 5
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 49/123] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:11:22 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 123 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351960|app: 0|req: 19/124] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:11:22 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 121 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 51/125] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:23:07 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 202 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 51/126] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:23:07 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 216 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 38/127] 219.239.227.192 () {52 vars in 917 bytes} [Sun Apr 14 12:24:26 2024] OPTIONS /api/medical/get_case?patient_id=1 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
+[pid: 351959|app: 0|req: 21/128] 219.239.227.192 () {52 vars in 935 bytes} [Sun Apr 14 12:24:26 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=17 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351959|app: 0|req: 21/129] 219.239.227.192 () {48 vars in 960 bytes} [Sun Apr 14 12:24:26 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 113 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 52/130] 219.239.227.192 () {48 vars in 978 bytes} [Sun Apr 14 12:24:26 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 124 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 39/131] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:24:50 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 118 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 53/132] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:24:50 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 133 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 54/133] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:28:10 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 123 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 20/134] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:28:10 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 137 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 40/135] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:28:51 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 113 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351959|app: 0|req: 22/136] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:28:51 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 161 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+[pid: 351962|app: 0|req: 55/137] 219.239.227.192 () {48 vars in 880 bytes} [Sun Apr 14 12:28:54 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=2 => generated 0 bytes in 1 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
+用户id  : 5
+2/dst/2-德育.png
+哈哈 0
+2/dst/6-志愿服务_91h.png
+哈哈 0
+[pid: 351960|app: 0|req: 21/138] 219.239.227.192 () {44 vars in 923 bytes} [Sun Apr 14 12:28:54 2024] GET /api/medical/get_ct?patient_id=1&case_id=2 => generated 358 bytes in 100 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 56/139] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:29:37 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 118 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 22/140] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:29:37 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 163 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 58/141] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:29:40 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 179 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 58/142] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:29:40 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 221 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351963|app: 0|req: 41/143] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:29:56 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 112 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351959|app: 0|req: 23/144] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:29:56 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 163 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 42/145] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:30:48 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 119 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351959|app: 0|req: 24/146] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:30:48 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 164 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+[pid: 351963|app: 0|req: 43/147] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:31:47 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 117 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 59/148] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:31:47 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 159 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+[pid: 351963|app: 0|req: 44/149] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:32:34 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 122 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 23/150] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:32:34 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 157 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351963|app: 0|req: 45/151] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:33:02 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 128 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 24/152] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:33:02 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 230 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+15/dst/ser010img00053.png
+[pid: 351962|app: 0|req: 60/153] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:34:09 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 116 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351959|app: 0|req: 25/154] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:34:09 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 158 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+15/dst/ser010img00053.png
+[pid: 351963|app: 0|req: 46/155] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:36:46 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 112 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351959|app: 0|req: 26/156] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:36:46 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 163 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351962|app: 0|req: 61/157] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:37:13 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 112 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351959|app: 0|req: 27/158] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:37:13 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 166 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351960|app: 0|req: 25/159] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:37:53 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 116 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 62/160] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:37:53 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 161 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+15/dst/ser010img00053.png
+[pid: 351962|app: 0|req: 64/161] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:37:57 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 188 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 64/162] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:37:57 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 223 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351963|app: 0|req: 47/163] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:38:18 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 114 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351959|app: 0|req: 28/164] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:38:18 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 169 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 65/165] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:38:53 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 121 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 48/166] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:38:53 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 163 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351960|app: 0|req: 26/167] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:39:22 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 112 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 66/168] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:39:22 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 157 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351962|app: 0|req: 67/169] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:40:22 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 114 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 27/170] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:40:22 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 163 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 49/171] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:41:27 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 124 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 28/172] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:41:27 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 178 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 69/173] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:41:50 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 183 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 69/174] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:41:50 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 230 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351963|app: 0|req: 50/175] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:41:55 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 112 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 29/176] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:41:55 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 153 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 71/177] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:42:17 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 242 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 71/178] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:42:17 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 293 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 72/179] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:43:00 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 113 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351959|app: 0|req: 29/180] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:43:00 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 157 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 73/181] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:43:04 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 116 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 30/182] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:43:04 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 160 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351960|app: 0|req: 31/183] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:43:37 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 129 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 51/184] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:43:37 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 218 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 52/185] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:44:31 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 139 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351959|app: 0|req: 30/186] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:44:34 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 108 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 32/187] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:44:36 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 136 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351959|app: 0|req: 31/188] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:48:41 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 115 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 74/189] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:48:41 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 162 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 53/190] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:49:23 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 122 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351959|app: 0|req: 32/191] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:49:23 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 159 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351962|app: 0|req: 75/192] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:49:50 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 114 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 54/193] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:49:50 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 170 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+15/dst/ser010img00053.png
+[pid: 351962|app: 0|req: 77/194] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:50:00 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 198 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 77/195] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:50:00 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 237 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+15/dst/ser010img00053.png
+[pid: 351962|app: 0|req: 78/196] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:51:06 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 122 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351959|app: 0|req: 33/197] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:51:06 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 160 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351962|app: 0|req: 79/198] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 12:52:30 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 111 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 33/199] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 12:52:30 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 165 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351959|app: 0|req: 34/200] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 13:04:24 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 116 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 55/201] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:04:24 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 161 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+15/dst/ser010img00053.png
+[pid: 351962|app: 0|req: 80/202] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 13:04:43 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 122 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 34/203] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:04:43 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 164 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 56/204] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:06:33 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 111 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 35/205] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:07:19 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 145 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+[pid: 351963|app: 0|req: 57/206] 219.239.227.192 () {48 vars in 880 bytes} [Sun Apr 14 13:07:23 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=3 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+用户id  : 5
+3/dst/2-德育.png
+哈哈 0
+3/dst/6-志愿服务_91h.png
+哈哈 0
+[pid: 351962|app: 0|req: 81/207] 219.239.227.192 () {44 vars in 923 bytes} [Sun Apr 14 13:07:23 2024] GET /api/medical/get_ct?patient_id=1&case_id=3 => generated 358 bytes in 113 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 58/208] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:07:27 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 102 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 36/209] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:07:45 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 139 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351959|app: 0|req: 35/210] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:08:07 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 109 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351959|app: 0|req: 36/211] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 13:08:36 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 120 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 59/212] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:08:36 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 133 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+[pid: 351962|app: 0|req: 82/213] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 13:08:46 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 117 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 60/214] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:08:46 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 126 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 61/215] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:09:03 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 113 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351959|app: 0|req: 37/216] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:09:07 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 153 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 62/217] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:09:10 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 104 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 84/218] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 13:10:03 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 196 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 84/219] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:10:03 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 209 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+3/dst/2-德育.png
+哈哈 0
+3/dst/6-志愿服务_91h.png
+哈哈 0
+[pid: 351962|app: 0|req: 85/220] 219.239.227.192 () {44 vars in 923 bytes} [Sun Apr 14 13:10:06 2024] GET /api/medical/get_ct?patient_id=1&case_id=3 => generated 358 bytes in 103 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 86/221] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:10:11 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 114 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+用户id  : 5
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 38/222] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 13:10:24 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 175 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351960|app: 0|req: 38/223] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:10:24 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 178 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+2/dst/2-德育.png
+哈哈 0
+2/dst/6-志愿服务_91h.png
+哈哈 0
+[pid: 351963|app: 0|req: 63/224] 219.239.227.192 () {44 vars in 923 bytes} [Sun Apr 14 13:10:37 2024] GET /api/medical/get_ct?patient_id=1&case_id=2 => generated 358 bytes in 101 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351959|app: 0|req: 38/225] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 13:10:51 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 109 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+2/dst/2-德育.png
+哈哈 0
+2/dst/6-志愿服务_91h.png
+哈哈 0
+[pid: 351962|app: 0|req: 87/226] 219.239.227.192 () {44 vars in 923 bytes} [Sun Apr 14 13:10:51 2024] GET /api/medical/get_ct?patient_id=1&case_id=2 => generated 358 bytes in 126 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 64/227] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:10:57 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 112 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351959|app: 0|req: 40/228] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 13:11:03 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 189 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351959|app: 0|req: 40/229] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:11:03 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 201 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 88/230] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:11:05 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 105 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 65/231] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:13:37 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 258 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 66/232] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:13:40 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 108 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 39/233] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:13:52 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 139 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 40/234] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:15:23 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 116 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+用户id  : 5
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 68/235] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:16:00 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 176 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 68/236] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 13:16:00 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 180 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 89/237] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:16:04 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 133 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351959|app: 0|req: 41/238] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:16:06 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 106 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 90/239] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:16:09 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 143 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 41/240] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:16:11 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 114 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+用户id  : 5
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 91/241] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 13:16:19 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 120 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 351960|app: 0|req: 42/242] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:16:19 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 124 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 69/243] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:16:23 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 139 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 70/244] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:16:26 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 108 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+[pid: 351959|app: 0|req: 43/245] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 13:16:33 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 191 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351959|app: 0|req: 43/246] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:16:33 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 201 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 71/247] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:16:36 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 138 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 72/248] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:16:39 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 111 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 351962|app: 0|req: 92/249] 219.239.227.192 () {48 vars in 882 bytes} [Sun Apr 14 13:17:10 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=12 => generated 0 bytes in 1 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
+用户id  : 5
+12/dst/ser010img00053.png
+哈哈 0
+12/dst/ser010img00054.png
+哈哈 0
+12/dst/ser010img00055.png
+哈哈 0
+12/dst/ser010img00056.png
+哈哈 0
+12/dst/ser010img00057.png
+哈哈 0
+12/dst/ser010img00058.png
+哈哈 0
+12/dst/ser010img00059.png
+哈哈 0
+12/dst/ser010img00060.png
+哈哈 0
+12/dst/ser010img00061.png
+哈哈 0
+12/dst/ser010img00062.png
+哈哈 0
+12/dst/ser010img00063.png
+哈哈 0
+12/dst/ser010img00064.png
+哈哈 0
+[pid: 351962|app: 0|req: 93/250] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:17:10 2024] GET /api/medical/get_ct?patient_id=1&case_id=12 => generated 1680 bytes in 131 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 43/251] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:17:13 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 137 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 44/252] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:17:26 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 106 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 94/253] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:17:29 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 135 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 95/254] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 13:19:09 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 112 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 73/255] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:19:09 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 159 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351960|app: 0|req: 45/256] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 13:19:23 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 117 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 96/257] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:19:23 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 161 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+[pid: 351962|app: 0|req: 97/258] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 13:21:50 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 116 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 74/259] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:21:50 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 153 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 98/260] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:23:05 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 104 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351960|app: 0|req: 47/261] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 13:23:22 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 176 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 47/262] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:23:22 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 189 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 99/263] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 13:23:33 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 112 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 48/264] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:23:33 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 124 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 75/265] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:23:45 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 135 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 100/266] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 13:24:33 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 105 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351960|app: 0|req: 49/267] 122.13.77.124 () {36 vars in 496 bytes} [Sun Apr 14 13:44:29 2024] HEAD /api/medical/get_case?patient_id=1 => generated 43 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 76/268] 219.239.227.192 () {48 vars in 882 bytes} [Sun Apr 14 14:47:51 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=17 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
+[pid: 351962|app: 0|req: 101/269] 219.239.227.192 () {48 vars in 864 bytes} [Sun Apr 14 14:47:51 2024] OPTIONS /api/medical/get_case?patient_id=1 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+用户id  : 5
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 102/270] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 14:47:51 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 127 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 77/271] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 14:47:51 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 121 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 103/272] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 14:49:21 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 113 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 50/273] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 14:49:21 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 131 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 104/274] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:04:23 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 105 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 105/275] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:09:20 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 116 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 51/276] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:09:20 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 127 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351960|app: 0|req: 52/277] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:10:07 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 123 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351959|app: 0|req: 44/278] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:10:07 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 194 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 107/279] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:10:25 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 175 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 107/280] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:10:25 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 192 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 78/281] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:11:40 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 122 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 53/282] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:11:40 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 139 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+用户id  : 5
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+[pid: 351960|app: 0|req: 54/283] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:13:44 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 122 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 2
+[pid: 351963|app: 0|req: 79/284] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:13:44 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 126 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+[pid: 351962|app: 0|req: 108/285] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:14:08 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 124 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 55/286] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:14:08 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 130 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 80/287] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:15:33 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 120 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 109/288] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:15:33 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 130 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+[pid: 351962|app: 0|req: 110/289] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:15:58 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 123 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 81/290] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:15:58 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 127 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 111/291] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:16:22 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 117 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 56/292] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:16:22 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 129 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+[pid: 351960|app: 0|req: 57/293] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:17:03 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 121 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 112/294] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:17:03 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 126 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+[pid: 351963|app: 0|req: 82/295] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:17:54 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 121 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 113/296] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:17:54 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 132 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+[pid: 351960|app: 0|req: 58/297] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:18:02 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 116 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 83/298] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:18:02 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 121 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+[pid: 351963|app: 0|req: 84/299] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:18:21 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 130 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 59/300] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:18:21 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 137 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 85/301] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:19:31 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 113 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 60/302] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:19:31 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 126 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+[pid: 351960|app: 0|req: 61/303] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:20:29 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 121 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 86/304] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:20:29 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 129 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+用户id  : 5
+哈哈 2
+[pid: 351963|app: 0|req: 87/305] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:21:35 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 126 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 351962|app: 0|req: 114/306] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:21:35 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 130 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+[pid: 351963|app: 0|req: 88/307] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:21:41 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 122 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351959|app: 0|req: 45/308] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:21:41 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 130 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+[pid: 351960|app: 0|req: 62/309] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:22:31 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 135 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 115/310] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:22:31 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 142 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 89/311] 122.13.77.124 () {36 vars in 514 bytes} [Sun Apr 14 15:28:42 2024] HEAD /api/medical/get_ct?patient_id=1&case_id=17 => generated 43 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+[pid: 351959|app: 0|req: 46/312] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:36:11 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 115 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 90/313] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:36:11 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 123 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351962|app: 0|req: 116/314] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:36:11 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 111 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 91/315] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:36:11 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 123 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351962|app: 0|req: 117/316] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:38:32 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 115 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 63/317] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:38:32 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 127 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 119/318] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:43:14 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 182 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 119/319] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:43:14 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 190 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351963|app: 0|req: 92/320] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:48:09 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 104 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 64/321] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:48:09 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 127 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 120/322] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:48:26 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 125 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 65/323] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:48:26 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 137 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 94/324] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:49:38 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 177 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 94/325] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:49:38 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 193 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 95/326] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:49:55 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 114 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 66/327] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:49:55 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 128 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351962|app: 0|req: 121/328] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:57:55 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 116 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 67/329] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:57:55 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 139 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+用户id  : 5
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+[pid: 351963|app: 0|req: 97/330] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 15:58:18 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 194 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 2
+[pid: 351963|app: 0|req: 97/331] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 15:58:18 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 194 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 351962|app: 0|req: 122/332] 219.239.227.192 () {48 vars in 882 bytes} [Sun Apr 14 16:00:09 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=15 => generated 0 bytes in 1 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351959|app: 0|req: 47/333] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:00:09 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 142 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 124/334] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:01:46 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 193 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 124/335] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:01:46 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 228 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 98/336] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:02:17 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 114 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351959|app: 0|req: 48/337] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:02:17 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 156 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351960|app: 0|req: 68/338] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:02:37 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 123 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 125/339] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:02:37 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 176 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 126/340] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:02:47 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 113 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 69/341] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:02:47 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 157 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 100/342] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:15:05 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 193 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 100/343] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:15:05 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 238 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 127/344] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:15:19 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 117 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 101/345] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:15:19 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 164 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 128/346] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:15:25 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 118 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 70/347] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:15:25 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 158 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+用户id  : 5
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+[pid: 351960|app: 0|req: 71/348] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:15:34 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 126 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351959|app: 0|req: 49/349] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:15:34 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 159 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 102/350] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:15:45 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 113 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351960|app: 0|req: 72/351] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:15:45 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 156 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+用户id  : 5
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+[pid: 351962|app: 0|req: 129/352] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:15:56 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 130 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 103/353] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:15:56 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 162 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+用户id  : 5
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+[pid: 351962|app: 0|req: 130/354] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:16:00 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 130 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351959|app: 0|req: 50/355] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:16:00 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 156 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+15/dst/ser010img00053.png
+[pid: 351962|app: 0|req: 131/356] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:16:10 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 121 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 104/357] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:16:10 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 159 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351960|app: 0|req: 73/358] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:16:38 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 110 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 105/359] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:16:38 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 167 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351963|app: 0|req: 106/360] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:16:40 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 112 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 132/361] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:16:40 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 158 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351960|app: 0|req: 74/362] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:17:09 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 120 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 133/363] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:17:09 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 164 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 108/364] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:17:12 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 172 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 108/365] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:17:12 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 212 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 134/366] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:17:15 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 135 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351959|app: 0|req: 51/367] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:17:19 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 105 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351960|app: 0|req: 76/368] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:17:46 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 185 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 76/369] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:17:46 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 198 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+用户id  : 5
+哈哈 2
+[pid: 351963|app: 0|req: 110/370] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:18:00 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 180 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 351963|app: 0|req: 110/371] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:18:00 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 181 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 136/372] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:18:12 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 204 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 136/373] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:18:12 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 215 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351963|app: 0|req: 112/374] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:18:22 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 174 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 112/375] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:18:22 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 192 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351962|app: 0|req: 138/376] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:18:28 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 191 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 138/377] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:18:28 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 197 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 113/378] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:18:45 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 115 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 77/379] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:18:45 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 128 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351963|app: 0|req: 114/380] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:19:07 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 150 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 139/381] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:19:07 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 238 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+[pid: 351959|app: 0|req: 52/382] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:20:35 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 116 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 140/383] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:20:35 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 126 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 141/384] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 16:20:44 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 112 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 115/385] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:20:44 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 125 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)

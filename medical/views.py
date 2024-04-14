@@ -245,7 +245,7 @@ def get_ct(request):
     for photo in photos:
         print(photo.img.name)
         map={}
-        path=f'http://101.42.32.89/media/{ct.id}/dst/'+photo.img.name
+        path=f'http://101.42.32.89/media/'+photo.img.name
         map['path']=path
 
         # print(photo.id)
@@ -253,7 +253,7 @@ def get_ct(request):
         print("哈哈",len(segs))
         seg_list=[]
         for seg in segs:
-            seg_path=f'http://101.42.32.89/media/{ct.id}/dst/src'+seg.img.name
+            seg_path=f'http://101.42.32.89/media/'+seg.img.name
             # print(seg_path)
             seg_list.append(seg_path)
         map['seg']=seg_list
