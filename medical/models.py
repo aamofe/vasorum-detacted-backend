@@ -18,13 +18,26 @@ shanghai_tz = pytz.timezone('Asia/Shanghai')
 class Patient(models.Model):
     name=models.CharField(verbose_name="姓名",max_length=20,null=True)
     docter=models.ForeignKey(User,on_delete=models.CASCADE,related_name="patients",null=True)
+    gender=models.CharField(verbose_name="性别",max_length=10,default="男")
+    #1.性别，
     #新增对应医生字段
     #排序=最新ct的时间
-    # latest_ct=models.DateTimeField(verbose_name="最近一次ct的时间",null=True)
+    latest_ct=models.DateTimeField(verbose_name="最近一次ct的时间",null=True)
     def to_dict(self):
+        if self.latest_ct :
+            latest_ct_shanghai = (self.latest_ct.astimezone(shanghai_tz)).strftime('%Y-%m-%d %H:%M:%S')
+        else:
+            latest_ct_shanghai= None
+        if self.gender=="男":
+            avatar_url="http://101.42.32.89/media/avatar/male.png"
+        else:
+            avatar_url="http://101.42.32.89/media/avatar/female.png"
         return{
             "name":self.name,
-            "patient_id":self.id
+            "patient_id":self.id,
+            "avatar_url":avatar_url,
+            "latest_ct":latest_ct_shanghai,
+            "gender":self.gender
         }
 #新增诊断结果
 class CT(models.Model):
@@ -34,12 +47,16 @@ class CT(models.Model):
     dst_list=models.JSONField(verbose_name="处理后图片路径",null=True)
     created_at=models.DateTimeField(verbose_name="创建时间")
     diagnosis=models.TextField(verbose_name="诊断结果",null=True)
+    comment=models.TextField(verbose_name="诊断结果",null=True)
+    #2.备注 诊断结果
+    model_url=models.URLField(verbose_name="模型路径",null=True)
     def to_dict(self):
         created_at_shanghai = (self.created_at.astimezone(shanghai_tz)).strftime('%Y-%m-%d %H:%M:%S')
         return {
             "id":self.id,
             "date":created_at_shanghai,
-            "diagnosis":self.diagnosis
+            "diagnosis":self.diagnosis,
+            "model_url":self.model_url
         }
 
 

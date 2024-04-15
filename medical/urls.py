@@ -5,7 +5,7 @@ from .views import *
 from medical import views
 urlpatterns = [
     path('upload',upload),
-    path('test',test),
+    # path('test',test),
     path('get_ct',get_ct),
     path("get_case",get_case),
     path("add_patient",add_patient),
@@ -15,6 +15,7 @@ urlpatterns = [
     path("update_patient",update_patient),
     path('upload_seg',upload_seg),
     path("update_diagnosis",update_diagnosis),
+    path("update_comment",update_comment),
     path("get_diagnosis",get_diagnosis),
     path("annotate",annotate)
 ]

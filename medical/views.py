@@ -18,8 +18,12 @@ def add_patient(request):
         return JsonResponse({'errno': 1, 'msg': "请求方法错误"})
     json_data = json.loads(request.body.decode('utf-8'))
     name =json_data.get("name")
+    gender=json_data.get("gender")
+    doctor=request.user
     patient=Patient.objects.create(
-        name=name
+        name=name,
+        gender=gender,
+        doctor=doctor
     )
     return JsonResponse({'errno': 0,"patient_info":patient.to_dict(), 'msg': "创建患者成功"})
 
@@ -57,11 +61,26 @@ def get_patient(request):
 def get_all_patient(request):
     if request.method != 'GET':
         return JsonResponse({'errno': 1, 'msg': "请求方法错误"})
-    patients = Patient.objects.annotate(latest_ct=Max('cts__created_at')).order_by('-latest_ct')
+    patients1 = Patient.objects.all()
+    for patient in patients1:
+        if not patient.latest_ct:
+            latest_ct = CT.objects.filter(patient=patient).aggregate(latest_ct=Max('created_at'))['latest_ct']
+            patient.latest_ct = latest_ct
+            patient.save()
+            pass
+    
+    patients = Patient.objects.all().order_by('-latest_ct')
     patient_list=[]
+    #查看对应病人
     for p in patients:
         patient_list.append(p.to_dict())
-    return JsonResponse({'errno': 0,'patient_list':patient_list, 'msg': "获取所有患者成功"})
+    doctor=request.user
+    my_patients = Patient.objects.filter(docter=doctor).order_by('-latest_ct')
+    my_patient_list=[]
+    #查看对应病人
+    for p in my_patients:
+        my_patient_list.append(p.to_dict())
+    return JsonResponse({'errno': 0,'patient_list':patient_list,'my_patient_list':my_patient_list, 'msg': "获取所有患者成功"})
 
 @validate_login
 def update_patient(request):
@@ -81,49 +100,32 @@ def update_patient(request):
         return JsonResponse({'errno': 2, 'msg': f"更新患者信息时发生错误: {str(e)}"})
 
 
-# 上传ct（并处理）
-# 没有病历号，我就创建默认病历号，
-@validate_login
-def test(request):
-    if request.method != 'POST':
-        return JsonResponse({'errno': 1, 'msg': "请求方法错误"})
-    patient_id = request.POST.get("patient_id")
-    try:
-        patient = Patient.objects.get(id=patient_id)
-    except Patient.DoesNotExist:
-        patient = Patient.objects.create(name=None)
-    ct = CT.objects.create(
-        patient=patient,
-        created_at=now()
-    )
-    src_file = request.FILES.get('file')
-    photo = Photo.objects.create(
-        ct=ct,
-        img=src_file,
-    )
-    src_base = f'http://101.42.32.89/media/'
-    src_path=src_base + photo.img.name
-    ct.src_list=src_path
-    ct.save()
-    return JsonResponse({'errno': 0,'url':src_path, 'msg': "CT上传成功"})
-
 
 
 @validate_login
 def upload(request):
     if request.method != 'POST':
         return JsonResponse({'errno': 1, 'msg': "请求方法错误"})
-    patient_id = request.POST.get("patient_id")
-    if not patient_id:
-        return JsonResponse({'errno': 1, 'msg': "患者ID"})
-    try:
-        patient = Patient.objects.get(id=patient_id)
-    except Patient.DoesNotExist:
-        patient = Patient.objects.create(name=None)
-    ct = CT.objects.create(
-        patient=patient,
-        created_at=now()
-    )
+    ct_id=request.POST.get("ct_id")
+    if ct_id is None:
+        patient_id = request.POST.get("patient_id")
+        if not patient_id:
+            return JsonResponse({'errno': 1, 'msg': "患者ID"})
+        try:
+            patient = Patient.objects.get(id=patient_id)
+        except Patient.DoesNotExist:
+            patient = Patient.objects.create(name=None)
+        ct = CT.objects.create(
+            patient=patient,
+            created_at=now()
+        )
+    else :
+        try:
+            ct=CT.objects.get(id=ct_id)
+        except CT.DoesNotExist:
+            return JsonResponse({'errno': 1, 'msg': "CT不存在"})
+    
+    
     src_files = request.FILES.getlist('src_file')
     dst_files = request.FILES.getlist('dst_file')
     if not src_files:
@@ -157,56 +159,53 @@ def upload(request):
                          "src_list":src_list,
                          "dst_list":dst_list,
                           'msg': "CT上传成功"})
+
+
 @validate_login
 def upload_seg(request):
     if request.method != 'POST':
         return JsonResponse({'errno': 1, 'msg': "请求方法错误"})
-    
     src_files = request.FILES.getlist('src_file')#小图
-    if not src_files:
-        return JsonResponse({'errno': 1, 'msg': "未传入ct图片"})
-    src_list = []
-    src_base = f'http://101.42.32.89/media/'
-    for file in src_files:
-        file_name = file.name
-        ct_id =17 #file_name.split('-')[1] 
-        ct = CT.objects.get(id=ct_id)
-        photo_name = file_name.split('-')[4]
-        print(ct_id)
-        print(photo_name)
-        photo = Photo.objects.get(
-            Q(img__contains=photo_name) | Q(img__contains=photo_name.replace('.jpg', '.png')),
-            ct=ct,
-            path="dst"
-        )
-        
-        seg=Segmentation.objects.create(
-            photo=photo,
-            img=file,
-            path='src'
-        )
-        if photo.seg_src is None:
-            photo.seg_src=[]
-        photo.seg_src.append(src_base + photo.img.name)
-        photo.save()
-    # dst_files = request.FILES.getlist('dst_file')#小图
-    # if not dst_files:
-    #     return JsonResponse({'errno': 1, 'msg': "未传入处理后的切割图片"})
-    
-    # dst_base = f'http://101.42.32.89/media/'
-    # for file in dst_files:
-    #     file_name = file.name
-    #     ct_id = file_name.split('-')[1] 
-    #     ct = CT.objects.get(id=ct_id)
-    #     photo_name = file_name.split('-')[3]
-    #     photo = Photo.objects.get(ct=ct, img__contains=photo_name) 
-    #     seg=Segmentation.objects.create(
-    #         photo=photo,
-    #         img=file,
-    #         path='dst'
-    #     )
-    #     photo.seg_dst.append(dst_base + photo.img.name)
-
+    ct_id =request.POST.get("ct_id")
+    if  src_files:
+        src_base = f'http://101.42.32.89/media/'
+        for file in src_files:
+            file_name = file.name
+            ct = CT.objects.get(id=ct_id)
+            photo_name = file_name.split('-')[4]
+            photo = Photo.objects.get(
+                Q(img__contains=photo_name) | Q(img__contains=photo_name.replace('.jpg', '.png')),
+                ct=ct,
+                path="dst"
+            )
+            seg=Segmentation.objects.create(
+                photo=photo,
+                img=file,
+                path='src'
+            )
+            if photo.seg_src is None:
+                photo.seg_src=[]
+            photo.seg_src.append(src_base + photo.img.name)
+            photo.save()
+    dst_files = request.FILES.getlist('dst_file')#小图
+    if dst_files:
+        dst_base = f'http://101.42.32.89/media/'
+        for file in dst_files:
+            file_name = file.name
+            ct_id = file_name.split('-')[1] 
+            ct = CT.objects.get(id=ct_id)
+            photo_name = file_name.split('-')[3]
+            photo = Photo.objects.get(
+                Q(img__contains=photo_name) | Q(img__contains=photo_name.replace('.png', '.jpg')),
+                ct=ct,
+                path="dst"
+            )
+            seg=Segmentation.objects.create(
+                photo=photo,
+                img=file,
+                path='dst'
+            )
+            photo.seg_dst.append(dst_base + photo.img.name)
     return JsonResponse({'errno': 0,'msg': "分割图上传成功"})
 
 # 查看指定ct
@@ -263,6 +262,7 @@ def get_ct(request):
                          "src_list": ct.src_list,
                          "dst_list": dst_list,
                          "diagnosis":ct.diagnosis,
+                         "comment":ct.comment,
                          'msg': "获取最近ct成功"})
 @validate_login
 def get_case(request):
@@ -278,7 +278,10 @@ def get_case(request):
     cts = CT.objects.filter(patient=patient).order_by('-created_at')
     cases=[]
     for ct in cts:
-        cases.append(ct.to_dict())
+        cover_url=ct.src_list[0]
+        ct_dict=ct.to_dict()
+        ct_dict["cover_url"]=cover_url
+        cases.append(ct_dict)
     return JsonResponse({'errno': 0,'cases':cases, 'msg': "获取所有ct成功"})
 
 #获取/修改 诊断结果
@@ -294,6 +297,19 @@ def update_diagnosis(request):
     except CT.DoesNotExist:
         return JsonResponse({'errno': 1, 'msg': "CT不存在"})
     ct.diagnosis=diagnosis
+    ct.save()
+    return JsonResponse({'errno': 0, 'msg': "修改成功"})
+@validate_login
+def update_comment(request):
+    if request.method != 'POST':
+        return JsonResponse({'errno': 1, 'msg': "请求方法错误"})
+    ct_id=request.POST.get('ct_id')
+    comment=request.POST.get('comment')
+    try:
+        ct=CT.objects.get(id=ct_id)
+    except CT.DoesNotExist:
+        return JsonResponse({'errno': 1, 'msg': "CT不存在"})
+    ct.comment=comment
     ct.save()
     return JsonResponse({'errno': 0, 'msg': "修改成功"})
 
@@ -328,22 +344,19 @@ def annotate(request):
     arr = {}
     i=1
     points = data.get('data')
+    point_coords = []
+    value = {}
+    boxes = []  
+    point_labels = []  
     for point in points:
-        key = photo_name + "_" + str(i)
-        value = {}
-        boxes = []  
-        point_coords = []  
-        point_labels = []  
         x = point.get('x')
         y = point.get('y')
         point_coords.append([x, y])  
-        point_label = point.get('point_labels')
-        point_labels.append(point_label)  
-        value["boxes"] = boxes
-        value["point_coords"] = point_coords
-        value["point_labels"] = point_labels
-        arr[key] = value
-        i += 1
+        point_labels.append(point.get('point_labels'))  
+    value["boxes"] = boxes
+    value["point_coords"] = point_coords
+    value["point_labels"] = point_labels
+    arr[photo_name] = value
 
     #发给模型，然后生成一张图片，
     return JsonResponse({'errno': 0,"arr":arr, 'msg': "标注成功"})
