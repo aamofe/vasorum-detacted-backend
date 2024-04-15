@@ -17,5 +17,6 @@ urlpatterns = [
     path("update_diagnosis",update_diagnosis),
     path("update_comment",update_comment),
     path("get_diagnosis",get_diagnosis),
-    path("annotate",annotate)
+    path("annotate",annotate),
+    path("update",update)
 ]

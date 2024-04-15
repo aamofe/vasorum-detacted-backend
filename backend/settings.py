@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-7b&u3r8yu8sc%d)!ja7j_+tykm^ihj0chl#=zm@%w^^w6(b8=@
 DEBUG = True
 
 
-DATA_UPLOAD_MAX_NUMBER_FILES=200
+DATA_UPLOAD_MAX_NUMBER_FILES=300
 # Application definition
 
 INSTALLED_APPS = [

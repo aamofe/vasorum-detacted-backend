@@ -86,16 +86,8 @@ class Segmentation(models.Model):#这是切割图
     photo=models.ForeignKey(Photo,on_delete=models.CASCADE,related_name="切割图")
     img=models.ImageField(upload_to=seg_upload_to)
     path=models.CharField(verbose_name="上传路径",max_length=20,default="src")
-    
+    point_list=models.JSONField(verbose_name="标记点列表",null=True)
 
 #标注表 坐标 历史记录 +-
-class Annotation(models.Model):
-    photo=models.ForeignKey(Photo,on_delete=models.CASCADE,related_name="标注")
-    x1 = models.IntegerField()
-    x2 = models.IntegerField()
-    y1 = models.IntegerField()
-    y2 = models.IntegerField()
-    annotation_type = models.BooleanField(verbose_name="标注类型",default=True)#True + False - 默认是增加
-    created_at=models.DateTimeField(verbose_name="标注时间")
 #python manage.py makemigration
 #python manage.py migrate

@@ -185,16 +185,16 @@ def upload_seg(request):
             )
             if photo.seg_src is None:
                 photo.seg_src=[]
-            photo.seg_src.append(src_base + photo.img.name)
+            photo.seg_src.append(src_base + seg.img.name)
             photo.save()
     dst_files = request.FILES.getlist('dst_file')#小图
     if dst_files:
         dst_base = f'http://101.42.32.89/media/'
         for file in dst_files:
             file_name = file.name
-            ct_id = file_name.split('-')[1] 
+
             ct = CT.objects.get(id=ct_id)
-            photo_name = file_name.split('-')[3]
+            photo_name = file_name.split('-')[4]
             photo = Photo.objects.get(
                 Q(img__contains=photo_name) | Q(img__contains=photo_name.replace('.png', '.jpg')),
                 ct=ct,
@@ -205,7 +205,10 @@ def upload_seg(request):
                 img=file,
                 path='dst'
             )
-            photo.seg_dst.append(dst_base + photo.img.name)
+            if photo.seg_dst is None:
+                photo.seg_dst=[]
+            photo.seg_dst.append(dst_base + seg.img.name)
+            photo.save()
     return JsonResponse({'errno': 0,'msg': "分割图上传成功"})
 
 # 查看指定ct
@@ -242,20 +245,27 @@ def get_ct(request):
     photos=Photo.objects.filter(ct=ct,path="dst")
     dst_list=[]
     for photo in photos:
-        print(photo.img.name)
+        # print(photo.img.name)
         map={}
         path=f'http://101.42.32.89/media/'+photo.img.name
         map['path']=path
+        
+        # segs=Segmentation.objects.filter(photo=photo,path="src")
+        # seg_src=[]
+        # for seg in segs:
+        #     seg_path=f'http://101.42.32.89/media/'+seg.img.name
+        #     # print(seg_path)
+        #     seg_src.append(seg_path)
+        map['seg_src']=photo.seg_src
 
-        # print(photo.id)
-        segs=Segmentation.objects.filter(photo=photo,path="src")
-        print("哈哈",len(segs))
-        seg_list=[]
-        for seg in segs:
-            seg_path=f'http://101.42.32.89/media/'+seg.img.name
-            # print(seg_path)
-            seg_list.append(seg_path)
-        map['seg']=seg_list
+        # segs=Segmentation.objects.filter(photo=photo,path="dst")
+        # seg_dst=[]
+        # for seg in segs:
+        #     seg_path=f'http://101.42.32.89/media/'+seg.img.name
+        #     # print(seg_path)
+        #     seg_dst.append(seg_path)
+        map['seg_dst']=photo.seg_dst
+
         dst_list.append(map)
 
     return JsonResponse({'errno': 0,
@@ -325,7 +335,6 @@ def get_diagnosis(request):
     
     return JsonResponse({'errno': 0,'ct_info':ct.to_dict(), 'msg': "修改成功"})
 
-#标注
 def annotate(request):
     if request.method != 'POST':
         return JsonResponse({'errno': 1, 'msg': "请求方法错误"})
@@ -333,32 +342,82 @@ def annotate(request):
         data = json.loads(request.body.decode('utf-8'))
     except json.JSONDecodeError:
         return JsonResponse({'errno': 1, 'msg': "JSON 解析错误"})
-    seg_id = data.get('seg_id')
+    url = data.get('url')
+    img_name=url.replace("http://101.42.32.89/media/","")
+    # print("img_name:",img_name)
+    idx=data.get('idx')
     try:
-        seg=Segmentation.objects.get(id=seg_id)
+        seg=Segmentation.objects.get(img__contains=img_name)
     except Segmentation.DoesNotExist:
         return JsonResponse({'errno': 1, 'msg': "小图不存在"})
     # 找到图片名字
-    img_name=Segmentation.objects.get(id=seg_id).img.name
-    photo_name = img_name.split("/")[3]
-    arr = {}
-    i=1
-    points = data.get('data')
-    point_coords = []
-    value = {}
-    boxes = []  
-    point_labels = []  
-    for point in points:
-        x = point.get('x')
-        y = point.get('y')
-        point_coords.append([x, y])  
-        point_labels.append(point.get('point_labels'))  
-    value["boxes"] = boxes
-    value["point_coords"] = point_coords
-    value["point_labels"] = point_labels
-    arr[photo_name] = value
+    
+    url=f'http://101.42.32.89/media/'+seg.img.name #dst/dst
+    # url=url.replace("dst/dst","dst/annotate")
+    if idx==1:
+        url=url.replace("dst/src","dst/annotate/first")
+    else:
+        url=url.replace("dst/src","dst/annotate/second")
+    # print(url)
+    return JsonResponse({'errno': 0,"url":url, 'msg': "标注成功"})
+# 标注
+# def annotate(request):
+#     if request.method != 'POST':
+#         return JsonResponse({'errno': 1, 'msg': "请求方法错误"})
+#     try:
+#         data = json.loads(request.body.decode('utf-8'))
+#     except json.JSONDecodeError:
+#         return JsonResponse({'errno': 1, 'msg': "JSON 解析错误"})
+#     seg_id = data.get('seg_id')
+#     try:
+#         seg=Segmentation.objects.get(id=seg_id)
+#     except Segmentation.DoesNotExist:
+#         return JsonResponse({'errno': 1, 'msg': "小图不存在"})
+#     # 找到图片名字
+#     seg=Segmentation.objects.get(id=seg_id)
+#     img_name=seg.img.name
+#     photo_name = img_name.split("/")[3]
+#     arr = {}
+#     points = data.get('data')
+#     seg.point_list=points
+#     seg.save()
+#     point_coords = []
+#     value = {}
+#     boxes = []  
+#     point_labels = []  
+#     for point in points:
+#         x = point.get('x')
+#         y = point.get('y')
+#         point_coords.append([x, y])  
+#         point_labels.append(point.get('point_labels'))  
+#     value["boxes"] = boxes
+#     value["point_coords"] = point_coords
+#     value["point_labels"] = point_labels
+#     arr[photo_name] = value
 
-    #发给模型，然后生成一张图片，
-    return JsonResponse({'errno': 0,"arr":arr, 'msg': "标注成功"})
+#     #发给模型，然后生成一张图片，
+#     return JsonResponse({'errno': 0,"arr":arr, 'msg': "标注成功"})
 #展示所有标注
 
+@validate_login
+def get_point_list(request):
+    if request.method != 'GET':
+        return JsonResponse({'errno': 1, 'msg': "请求方法错误"})
+    seg_url=request.GET.get("seg_url")
+    seg_name = seg_url.replace("http://101.42.32.89/media/", "")
+    seg=Segmentation.objects.get(img__name=seg_name)
+    return JsonResponse({'errno': 0,"point_list":seg.point_list, 'msg': "标注成功"})
+
+def update(request):
+    photos=Photo.objects.all()
+    for photo in photos:
+        src_list=photo.seg_src
+        new_src=[]
+        if src_list is None:
+            continue
+        for s in src_list:
+            new_s=s.replace("jpg","png")
+            new_src.append(new_s)
+        photo.seg_src=new_src
+        photo.save()
+    return JsonResponse({'errno': 0, 'msg': "修改成功"})    
