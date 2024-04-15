@@ -315,22 +315,34 @@ def annotate(request):
         return JsonResponse({'errno': 1, 'msg': "请求方法错误"})
     try:
         data = json.loads(request.body.decode('utf-8'))
-        points=data.get('data')
-        for point in points:
-            x = point.get('x')
-            y = point.get('y')
-            point_type = point.get('type')
-            print(f"x: {x}, y: {y}, type: {point_type}")
-        seg_id=data.get('seg_id')
-
     except json.JSONDecodeError:
         return JsonResponse({'errno': 1, 'msg': "JSON 解析错误"})
-    
+    seg_id = data.get('seg_id')
     try:
         seg=Segmentation.objects.get(id=seg_id)
     except Segmentation.DoesNotExist:
         return JsonResponse({'errno': 1, 'msg': "小图不存在"})
-    
+    # 找到图片名字
+    photo_name = Segmentation.objects.get(id=seg_id).img.name
+    arr = {}
+    i=1
+    points = data.get('data')
+    for point in points:
+        key=photo_name+"_"+i
+        value = {}
+        boxes = [[]]
+        point_coords = [[]]
+        point_labels = []
+        x = point.get('x')
+        y = point.get('y')
+        point_coords[0][0] = x
+        point_coords[0][1] = y
+        point_label = point.get('point_labels')
+        point_labels[0] = point_label
+        value["boxes"] = boxes
+        value["point_coords"] = point_coords
+        value["point_labels"] = point_labels
+        arr[key] = value
     #发给模型，然后生成一张图片，
     return JsonResponse({'errno': 0, 'msg': "标注成功"})
 #展示所有标注
