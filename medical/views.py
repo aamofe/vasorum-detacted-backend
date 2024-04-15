@@ -323,27 +323,29 @@ def annotate(request):
     except Segmentation.DoesNotExist:
         return JsonResponse({'errno': 1, 'msg': "小图不存在"})
     # 找到图片名字
-    photo_name = Segmentation.objects.get(id=seg_id).img.name
+    img_name=Segmentation.objects.get(id=seg_id).img.name
+    photo_name = img_name.split("/")[3]
     arr = {}
     i=1
     points = data.get('data')
     for point in points:
-        key=photo_name+"_"+i
+        key = photo_name + "_" + str(i)
         value = {}
-        boxes = [[]]
-        point_coords = [[]]
-        point_labels = []
+        boxes = []  
+        point_coords = []  
+        point_labels = []  
         x = point.get('x')
         y = point.get('y')
-        point_coords[0][0] = x
-        point_coords[0][1] = y
+        point_coords.append([x, y])  
         point_label = point.get('point_labels')
-        point_labels[0] = point_label
+        point_labels.append(point_label)  
         value["boxes"] = boxes
         value["point_coords"] = point_coords
         value["point_labels"] = point_labels
         arr[key] = value
+        i += 1
+
     #发给模型，然后生成一张图片，
-    return JsonResponse({'errno': 0, 'msg': "标注成功"})
+    return JsonResponse({'errno': 0,"arr":arr, 'msg': "标注成功"})
 #展示所有标注
 

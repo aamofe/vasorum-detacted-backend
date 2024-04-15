@@ -4639,3 +4639,455 @@ Not Found: /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
 17/dst/ser006img00717.png
 哈哈 2
 [pid: 351963|app: 0|req: 115/385] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 16:20:44 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 125 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 351962|app: 0|req: 143/386] 219.239.227.192 () {48 vars in 864 bytes} [Sun Apr 14 21:13:34 2024] OPTIONS /api/medical/get_case?patient_id=1 => generated 0 bytes in 23 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
+[pid: 351962|app: 0|req: 143/387] 219.239.227.192 () {48 vars in 882 bytes} [Sun Apr 14 21:13:34 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=17 => generated 0 bytes in 28 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+[pid: 351959|app: 0|req: 54/388] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 21:13:34 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 230 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351959|app: 0|req: 54/389] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 21:13:34 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 239 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 144/390] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 23:04:04 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 124 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351959|app: 0|req: 55/391] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 23:04:04 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 133 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 116/392] 219.239.227.192 () {48 vars in 882 bytes} [Sun Apr 14 23:04:19 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=15 => generated 0 bytes in 1 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 117/393] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 23:04:19 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 151 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 118/394] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 23:04:22 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 104 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 119/395] 219.239.227.192 () {48 vars in 864 bytes} [Sun Apr 14 23:23:06 2024] OPTIONS /api/medical/get_case?patient_id=1 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+[pid: 351959|app: 0|req: 56/396] 219.239.227.192 () {48 vars in 882 bytes} [Sun Apr 14 23:23:06 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=17 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351959|app: 0|req: 57/397] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 23:23:06 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 115 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351963|app: 0|req: 120/398] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 23:23:06 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 129 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351962|app: 0|req: 145/399] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 23:56:20 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 139 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+[pid: 351960|app: 0|req: 78/400] 219.239.227.192 () {44 vars in 907 bytes} [Sun Apr 14 23:57:03 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 114 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 146/401] 219.239.227.192 () {44 vars in 925 bytes} [Sun Apr 14 23:57:03 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 124 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351963|app: 0|req: 121/402] 219.239.227.192 () {44 vars in 907 bytes} [Mon Apr 15 00:00:11 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 113 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 147/403] 219.239.227.192 () {44 vars in 925 bytes} [Mon Apr 15 00:00:11 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 131 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 148/404] 219.239.227.192 () {44 vars in 925 bytes} [Mon Apr 15 00:01:38 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 108 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 122/405] 219.239.227.192 () {44 vars in 925 bytes} [Mon Apr 15 00:01:42 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 140 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+[pid: 351959|app: 0|req: 58/406] 219.239.227.192 () {52 vars in 935 bytes} [Mon Apr 15 00:01:46 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=15 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+[pid: 351959|app: 0|req: 59/407] 219.239.227.192 () {52 vars in 917 bytes} [Mon Apr 15 00:01:46 2024] OPTIONS /api/medical/get_case?patient_id=1 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 351962|app: 0|req: 149/408] 219.239.227.192 () {48 vars in 960 bytes} [Mon Apr 15 00:01:46 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 117 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+15/dst/ser010img00053.png
+哈哈 0
+15/dst/ser010img00054.png
+哈哈 0
+15/dst/ser010img00055.png
+哈哈 0
+15/dst/ser010img00056.png
+哈哈 0
+15/dst/ser010img00057.png
+哈哈 0
+15/dst/ser010img00058.png
+哈哈 0
+15/dst/ser010img00059.png
+哈哈 0
+15/dst/ser010img00060.png
+哈哈 0
+15/dst/ser010img00061.png
+哈哈 0
+15/dst/ser010img00062.png
+哈哈 0
+15/dst/ser010img00063.png
+哈哈 0
+15/dst/ser010img00064.png
+哈哈 0
+15/dst/ser010img00065.png
+哈哈 0
+15/dst/ser010img00066.png
+哈哈 0
+[pid: 351963|app: 0|req: 123/409] 219.239.227.192 () {48 vars in 978 bytes} [Mon Apr 15 00:01:46 2024] GET /api/medical/get_ct?patient_id=1&case_id=15 => generated 1942 bytes in 160 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+用户id  : 5
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+用户id  : 5
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351962|app: 0|req: 150/410] 219.239.227.192 () {44 vars in 925 bytes} [Mon Apr 15 00:09:36 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 124 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 124/411] 219.239.227.192 () {44 vars in 907 bytes} [Mon Apr 15 00:09:36 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 125 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351962|app: 0|req: 151/412] 180.163.29.234 () {36 vars in 637 bytes} [Mon Apr 15 01:34:32 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 43 bytes in 0 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+Not Found: /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[pid: 351962|app: 0|req: 152/413] 175.6.99.204 () {40 vars in 606 bytes} [Mon Apr 15 05:01:52 2024] GET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php => generated 2588 bytes in 10 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 125/414] 219.239.227.192 () {48 vars in 864 bytes} [Mon Apr 15 11:09:47 2024] OPTIONS /api/medical/get_case?patient_id=1 => generated 0 bytes in 1 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+[pid: 351959|app: 0|req: 60/415] 219.239.227.192 () {48 vars in 882 bytes} [Mon Apr 15 11:09:47 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=17 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 351963|app: 0|req: 126/416] 219.239.227.192 () {44 vars in 907 bytes} [Mon Apr 15 11:09:47 2024] GET /api/medical/get_case?patient_id=1 => generated 625 bytes in 122 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+17/dst/ser006img00715.png
+哈哈 2
+17/dst/ser006img00716.png
+哈哈 2
+17/dst/ser006img00717.png
+哈哈 2
+[pid: 351960|app: 0|req: 79/417] 219.239.227.192 () {44 vars in 925 bytes} [Mon Apr 15 11:09:47 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 945 bytes in 136 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 351962|app: 0|req: 153/418] 219.239.227.192 () {48 vars in 853 bytes} [Mon Apr 15 11:21:44 2024] OPTIONS /api/medical/get_all_patient => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351959|app: 0|req: 61/419] 219.239.227.192 () {44 vars in 896 bytes} [Mon Apr 15 11:21:44 2024] GET /api/medical/get_all_patient => generated 165 bytes in 122 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351962|app: 0|req: 154/420] 219.239.227.192 () {44 vars in 896 bytes} [Mon Apr 15 11:22:36 2024] GET /api/medical/get_all_patient => generated 165 bytes in 96 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351960|app: 0|req: 80/421] 219.239.227.192 () {44 vars in 896 bytes} [Mon Apr 15 11:23:17 2024] GET /api/medical/get_all_patient => generated 165 bytes in 94 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 351962|app: 0|req: 155/422] 219.239.227.192 () {44 vars in 896 bytes} [Mon Apr 15 11:24:39 2024] GET /api/medical/get_all_patient => generated 165 bytes in 91 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351960|app: 0|req: 81/423] 219.239.227.192 () {44 vars in 896 bytes} [Mon Apr 15 11:25:05 2024] GET /api/medical/get_all_patient => generated 165 bytes in 90 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 351962|app: 0|req: 156/424] 219.239.227.192 () {44 vars in 896 bytes} [Mon Apr 15 11:26:16 2024] GET /api/medical/get_all_patient => generated 165 bytes in 95 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 351963|app: 0|req: 127/425] 220.196.160.51 () {42 vars in 833 bytes} [Mon Apr 15 11:58:37 2024] GET /api/medical/get_all_patient => generated 43 bytes in 0 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 351960)...
+Gracefully killing worker 1 (pid: 351959)...
+Gracefully killing worker 4 (pid: 351963)...
+Gracefully killing worker 3 (pid: 351962)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 6 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.23 (64bit) on [Mon Apr 15 13:01:16 2024] ***
+compiled with version: 11.2.0 on 15 January 2024 06:07:54
+os: Linux-5.15.0-91-generic #101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023
+nodename: VM-16-17-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/chuangxin/vasorum-detacted-backend
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+your processes number limit is 7401
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 6
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+Set PythonHome to /home/ubuntu/anaconda3/envs/django
+Python main interpreter initialized at 0x563271dd6f70
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/ubuntu/anaconda3/envs/django/lib/python3.10/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563271dd6f70 pid: 2250 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2250)
+spawned uWSGI worker 1 (pid: 2051986, cores: 2)
+spawned uWSGI worker 2 (pid: 2051987, cores: 2)
+spawned uWSGI worker 3 (pid: 2051989, cores: 2)
+spawned uWSGI worker 4 (pid: 2051990, cores: 2)
+Not Found: /api/api/medical/annotate
+[pid: 2051989|app: 0|req: 1/1] 219.239.227.174 () {40 vars in 577 bytes} [Mon Apr 15 13:03:13 2024] POST /api/api/medical/annotate => generated 2496 bytes in 74 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
+[pid: 2051990|app: 0|req: 1/2] 219.239.227.174 () {40 vars in 569 bytes} [Mon Apr 15 13:03:29 2024] POST /api/medical/annotate => generated 53 bytes in 173 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+Internal Server Error: /api/medical/annotate
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/django/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/anaconda3/envs/django/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/chuangxin/vasorum-detacted-backend/./medical/views.py", line 331, in annotate
+    key=photo_name+"_"+i
+TypeError: can only concatenate str (not "int") to str
+[pid: 2051990|app: 0|req: 2/3] 219.239.227.174 () {40 vars in 569 bytes} [Mon Apr 15 13:04:09 2024] POST /api/medical/annotate => generated 56107 bytes in 132 msecs (HTTP/1.1 500) 7 headers in 250 bytes (1 switches on core 1)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 2051986)...
+Gracefully killing worker 2 (pid: 2051987)...
+Gracefully killing worker 3 (pid: 2051989)...
+Gracefully killing worker 4 (pid: 2051990)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 6 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.23 (64bit) on [Mon Apr 15 13:06:28 2024] ***
+compiled with version: 11.2.0 on 15 January 2024 06:07:54
+os: Linux-5.15.0-91-generic #101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023
+nodename: VM-16-17-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/chuangxin/vasorum-detacted-backend
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+your processes number limit is 7401
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 6
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+Set PythonHome to /home/ubuntu/anaconda3/envs/django
+Python main interpreter initialized at 0x5637e1197f70
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/ubuntu/anaconda3/envs/django/lib/python3.10/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5637e1197f70 pid: 2250 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2250)
+spawned uWSGI worker 1 (pid: 2053667, cores: 2)
+spawned uWSGI worker 2 (pid: 2053668, cores: 2)
+spawned uWSGI worker 3 (pid: 2053670, cores: 2)
+spawned uWSGI worker 4 (pid: 2053672, cores: 2)
+Internal Server Error: /api/medical/annotate
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/django/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/anaconda3/envs/django/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/chuangxin/vasorum-detacted-backend/./medical/views.py", line 338, in annotate
+    point_coords[0][0] = x
+IndexError: list assignment index out of range
+[pid: 2053672|app: 0|req: 1/1] 219.239.227.174 () {40 vars in 569 bytes} [Mon Apr 15 13:06:31 2024] POST /api/medical/annotate => generated 57220 bytes in 161 msecs (HTTP/1.1 500) 7 headers in 250 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 2053667)...
+Gracefully killing worker 2 (pid: 2053668)...
+Gracefully killing worker 3 (pid: 2053670)...
+Gracefully killing worker 4 (pid: 2053672)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 6 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.23 (64bit) on [Mon Apr 15 13:08:37 2024] ***
+compiled with version: 11.2.0 on 15 January 2024 06:07:54
+os: Linux-5.15.0-91-generic #101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023
+nodename: VM-16-17-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/chuangxin/vasorum-detacted-backend
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+your processes number limit is 7401
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 6
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+Set PythonHome to /home/ubuntu/anaconda3/envs/django
+Python main interpreter initialized at 0x556f8608df70
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/ubuntu/anaconda3/envs/django/lib/python3.10/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x556f8608df70 pid: 2250 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2250)
+spawned uWSGI worker 1 (pid: 2054406, cores: 2)
+spawned uWSGI worker 2 (pid: 2054408, cores: 2)
+spawned uWSGI worker 3 (pid: 2054409, cores: 2)
+spawned uWSGI worker 4 (pid: 2054410, cores: 2)
+[pid: 2054406|app: 0|req: 1/1] 219.239.227.174 () {40 vars in 569 bytes} [Mon Apr 15 13:08:40 2024] POST /api/medical/annotate => generated 288 bytes in 130 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+[pid: 2054408|app: 0|req: 1/2] 219.239.227.174 () {40 vars in 569 bytes} [Mon Apr 15 13:09:15 2024] POST /api/medical/annotate => generated 282 bytes in 139 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 2054406)...
+Gracefully killing worker 2 (pid: 2054408)...
+Gracefully killing worker 3 (pid: 2054409)...
+Gracefully killing worker 4 (pid: 2054410)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 6 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.23 (64bit) on [Mon Apr 15 13:11:06 2024] ***
+compiled with version: 11.2.0 on 15 January 2024 06:07:54
+os: Linux-5.15.0-91-generic #101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023
+nodename: VM-16-17-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/chuangxin/vasorum-detacted-backend
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+your processes number limit is 7401
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 6
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+Set PythonHome to /home/ubuntu/anaconda3/envs/django
+Python main interpreter initialized at 0x5605f7536f70
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/ubuntu/anaconda3/envs/django/lib/python3.10/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5605f7536f70 pid: 2250 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2250)
+spawned uWSGI worker 1 (pid: 2055227, cores: 2)
+spawned uWSGI worker 2 (pid: 2055228, cores: 2)
+spawned uWSGI worker 3 (pid: 2055230, cores: 2)
+spawned uWSGI worker 4 (pid: 2055231, cores: 2)
+[pid: 2055230|app: 0|req: 1/1] 219.239.227.174 () {40 vars in 569 bytes} [Mon Apr 15 13:11:07 2024] POST /api/medical/annotate => generated 260 bytes in 131 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
